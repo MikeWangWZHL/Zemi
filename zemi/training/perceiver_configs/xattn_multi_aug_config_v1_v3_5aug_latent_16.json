@@ -1,0 +1,14 @@
+{
+    "dim": 768,
+    "depth": 1,
+    "dim_head": 64,
+    "heads": 8,
+    "num_latents": 16,
+    "num_aug_sources": 5,
+    "ff_mult": 2,
+    "xattn_ff_mult":4,
+    "freeze_lm":false,
+    "cross_attn_every": 1,
+    "only_attend_immediate_media":false,
+    "num_xattn_layers": 1
+}

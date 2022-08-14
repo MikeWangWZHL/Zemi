@@ -1,0 +1,10 @@
+{
+    "encoder_path_or_name": "bigscience/T0_3B",
+    "dim": 2048,
+    "depth": 2,
+    "dim_head": 64,
+    "heads": 8,
+    "num_latents": 64,
+    "num_ret_rank_embeds": 4,
+    "ff_mult": 2
+}

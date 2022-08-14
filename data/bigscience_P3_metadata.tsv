@@ -1,0 +1,661 @@
+category	task	dataset	# train	# train (after sampling)	# input tokens	# target tokens	ave input tokens	ave target tokens	is_original_task	has answer choices	t0 train	t0+ train	t0++ train	eval
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_GPT_3_Style	554		30776	1108	56	2	1	1			1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_GPT_3_Style_score_eval	1108		61552	2216	56	2	1				1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_I_think_they_mean	554		28515	1108	51	2	1	1			1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_I_think_they_mean_score_eval	1108		57030	2216	51	2	1				1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_Who_or_what_is_are	554		26672	1108	48	2	1	1			1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_Who_or_what_is_are_score_eval	1108		53344	2216	48	2	1				1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_by_p_they_mean	554		26190	1108	47	2	1	1			1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_by_p_they_mean_score_eval	1108		52380	2216	47	2	1				1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_does_p_stand_for	554		25235	1108	46	2	1	1			1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_does_p_stand_for_score_eval	1108		50470	2216	46	2	1				1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_does_the_pronoun_refer_to	554		29113	1108	53	2	1	1			1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_does_the_pronoun_refer_to_score_eval	1108		58226	2216	53	2	1				1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_in_other_words	554		27528	1698	50	3	1	1			1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_in_other_words_score_eval	1108		55056	3324	50	3	1				1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_p_is_are_r	554		26898	1698	49	3	1	1			1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_p_is_are_r_score_eval	1108		53796	3324	49	3	1				1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_replaced_with	554		31176	1108	56	2	1	1			1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_replaced_with_score_eval	1108		62352	2216	56	2	1				1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_the_pronoun_refers_to	554		29114	1698	53	3	1	1			1	1
+coreference_resolution	super_glue/wsc.fixed	super_glue_wsc.fixed_the_pronoun_refers_to_score_eval	1108		58228	3324	53	3	1				1	1
+coreference_resolution	winogrande/winogrande_xl	winogrande_winogrande_xl_Replace	40398		1777301	94256	44	2	1	1				1
+coreference_resolution	winogrande/winogrande_xl	winogrande_winogrande_xl_Replace_score_eval	80796		3554602	188512	44	2	1					1
+coreference_resolution	winogrande/winogrande_xl	winogrande_winogrande_xl_does_underscore_refer_to	40398		1575311	94256	39	2	1	1				1
+coreference_resolution	winogrande/winogrande_xl	winogrande_winogrande_xl_does_underscore_refer_to_score_eval	80796		3150622	188512	39	2	1					1
+coreference_resolution	winogrande/winogrande_xl	winogrande_winogrande_xl_fill_in_the_blank	40398		1858097	94256	46	2	1	1				1
+coreference_resolution	winogrande/winogrande_xl	winogrande_winogrande_xl_fill_in_the_blank_score_eval	80796		3716194	188512	46	2	1					1
+coreference_resolution	winogrande/winogrande_xl	winogrande_winogrande_xl_stand_for	40398		1615709	94256	40	2	1	1				1
+coreference_resolution	winogrande/winogrande_xl	winogrande_winogrande_xl_stand_for_score_eval	80796		3231418	188512	40	2	1					1
+coreference_resolution	winogrande/winogrande_xl	winogrande_winogrande_xl_underscore_refer_to	40398		1656107	94256	41	2	1	1				1
+coreference_resolution	winogrande/winogrande_xl	winogrande_winogrande_xl_underscore_refer_to_score_eval	80796		3312214	188512	41	2	1					1
+coreference_resolution	winogrande/winogrande_debiased	winogrande_winogrande_debiased_Replace	9248		413344	21512	45	2	1	1				1
+coreference_resolution	winogrande/winogrande_debiased	winogrande_winogrande_debiased_Replace_score_eval	18496		826688	42957	45	2	1					1
+coreference_resolution	winogrande/winogrande_debiased	winogrande_winogrande_debiased_does_underscore_refer_to	9248		367104	21512	40	2	1	1				1
+coreference_resolution	winogrande/winogrande_debiased	winogrande_winogrande_debiased_does_underscore_refer_to_score_eval	18496		734208	42957	40	2	1					1
+coreference_resolution	winogrande/winogrande_debiased	winogrande_winogrande_debiased_fill_in_the_blank	9248		431840	21512	47	2	1	1				1
+coreference_resolution	winogrande/winogrande_debiased	winogrande_winogrande_debiased_fill_in_the_blank_score_eval	18496		863680	42957	47	2	1					1
+coreference_resolution	winogrande/winogrande_debiased	winogrande_winogrande_debiased_stand_for	9248		376352	21512	41	2	1	1				1
+coreference_resolution	winogrande/winogrande_debiased	winogrande_winogrande_debiased_stand_for_score_eval	18496		752704	42957	41	2	1					1
+coreference_resolution	winogrande/winogrande_debiased	winogrande_winogrande_debiased_underscore_refer_to	9248		385600	21512	42	2	1	1				1
+coreference_resolution	winogrande/winogrande_debiased	winogrande_winogrande_debiased_underscore_refer_to_score_eval	18496		771200	42957	42	2	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_GPT_3_style	250		24878	754	100	3	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_GPT_3_style_score_eval	750		74634	2250	100	3	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_MNLI_crowdsource	250		29221	683	117	3	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_MNLI_crowdsource_score_eval	750		87663	2750	117	4	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_always_sometimes_never	250		27221	500	109	2	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_always_sometimes_never_score_eval	750		81663	1500	109	2	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_based_on_the_previous_passage	250		26971	500	108	2	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_based_on_the_previous_passage_score_eval	750		80913	1500	108	2	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_can_we_infer	250		26221	500	105	2	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_can_we_infer_score_eval	750		78663	1500	105	2	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_claim_true_false_inconclusive	250		27471	802	110	3	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_claim_true_false_inconclusive_score_eval	750		82413	3000	110	4	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_consider_always_sometimes_never	250		27128	500	109	2	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_consider_always_sometimes_never_score_eval	750		81384	1500	109	2	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_does_it_follow_that	250		25128	500	101	2	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_does_it_follow_that_score_eval	750		75384	1500	101	2	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_does_this_imply	250		26221	500	105	2	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_does_this_imply_score_eval	750		78663	1500	105	2	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_guaranteed_possible_impossible	250		26721	972	107	4	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_guaranteed_possible_impossible_score_eval	750		80163	2500	107	3	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_guaranteed_true	250		26221	500	105	2	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_guaranteed_true_score_eval	750		78663	1500	105	2	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_justified_in_saying	250		25971	500	104	2	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_justified_in_saying_score_eval	750		77913	1500	104	2	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_must_be_true	250		26721	500	107	2	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_must_be_true_score_eval	750		80163	1500	107	2	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_should_assume	250		26221	500	105	2	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_should_assume_score_eval	750		78663	1500	105	2	1					1
+natural_language_inference	super_glue/cb	super_glue_cb_take_the_following_as_truth	250		28471	802	114	3	1	1				1
+natural_language_inference	super_glue/cb	super_glue_cb_take_the_following_as_truth_score_eval	750		85413	3000	114	4	1					1
+natural_language_inference	super_glue/rte	super_glue_rte_GPT_3_style	2490		206745	7462	83	3	1	1				1
+natural_language_inference	super_glue/rte	super_glue_rte_GPT_3_style_score_eval	4980		413490	14940	83	3	1					1
+natural_language_inference	super_glue/rte	super_glue_rte_MNLI_crowdsource	2490		246327	4980	99	2	1	1				1
+natural_language_inference	super_glue/rte	super_glue_rte_MNLI_crowdsource_score_eval	4980		492654	9960	99	2	1					1
+natural_language_inference	super_glue/rte	super_glue_rte_based_on_the_previous_passage	2490		228897	4980	92	2	1	1				1
+natural_language_inference	super_glue/rte	super_glue_rte_based_on_the_previous_passage_score_eval	4980		457794	9960	92	2	1					1
+natural_language_inference	super_glue/rte	super_glue_rte_can_we_infer	2490		221427	4980	89	2	1	1				1
+natural_language_inference	super_glue/rte	super_glue_rte_can_we_infer_score_eval	4980		442854	9960	89	2	1					1
+natural_language_inference	super_glue/rte	super_glue_rte_does_it_follow_that	2490		211725	4980	85	2	1	1				1
+natural_language_inference	super_glue/rte	super_glue_rte_does_it_follow_that_score_eval	4980		423450	9960	85	2	1					1
+natural_language_inference	super_glue/rte	super_glue_rte_does_this_imply	2490		221427	4980	89	2	1	1				1
+natural_language_inference	super_glue/rte	super_glue_rte_does_this_imply_score_eval	4980		442854	9960	89	2	1					1
+natural_language_inference	super_glue/rte	super_glue_rte_guaranteed_true	2490		221427	4980	89	2	1	1				1
+natural_language_inference	super_glue/rte	super_glue_rte_guaranteed_true_score_eval	4980		442854	9960	89	2	1					1
+natural_language_inference	super_glue/rte	super_glue_rte_justified_in_saying	2490		218937	4980	88	2	1	1				1
+natural_language_inference	super_glue/rte	super_glue_rte_justified_in_saying_score_eval	4980		437874	9960	88	2	1					1
+natural_language_inference	super_glue/rte	super_glue_rte_must_be_true	2490		226407	4980	91	2	1	1				1
+natural_language_inference	super_glue/rte	super_glue_rte_must_be_true_score_eval	4980		452814	9960	91	2	1					1
+natural_language_inference	super_glue/rte	super_glue_rte_should_assume	2490		221427	4980	89	2	1	1				1
+natural_language_inference	super_glue/rte	super_glue_rte_should_assume_score_eval	4980		442854	9960	89	2	1					1
+natural_language_inference	anli	anli_GPT_3_style_r1	16946	3469	1877225	49990	111	3	1	1				1
+natural_language_inference	anli	anli_GPT_3_style_r1_score_eval	50838		5631675	152514	111	3	1					1
+natural_language_inference	anli	anli_GPT_3_style_r2	45460	9305	4949664	131985	109	3	1	1				1
+natural_language_inference	anli	anli_GPT_3_style_r2_score_eval	136380		14848992	409140	109	3	1					1
+natural_language_inference	anli	anli_GPT_3_style_r3	100459	20561	10318444	296474	103	3	1	1				1
+natural_language_inference	anli	anli_GPT_3_style_r3_score_eval	301377		30955332	904131	103	3	1					1
+natural_language_inference	anli	anli_MNLI_crowdsource_r1	16946	3469	2167194	66623	128	4	1	1				1
+natural_language_inference	anli	anli_MNLI_crowdsource_r1_score_eval	50838		6501582	186406	128	4	1					1
+natural_language_inference	anli	anli_MNLI_crowdsource_r2	45460	9305	5728823	184809	126	4	1	1				1
+natural_language_inference	anli	anli_MNLI_crowdsource_r2_score_eval	136380		17186469	500060	126	4	1					1
+natural_language_inference	anli	anli_MNLI_crowdsource_r3	100459	20561	12033256	391419	120	4	1	1				1
+natural_language_inference	anli	anli_MNLI_crowdsource_r3_score_eval	301377		36099768	1105049	120	4	1					1
+natural_language_inference	anli	anli_always_sometimes_never_r1	16946	3469	2031626	33892	120	2	1	1				1
+natural_language_inference	anli	anli_always_sometimes_never_r1_score_eval	50838		6094878	101676	120	2	1					1
+natural_language_inference	anli	anli_always_sometimes_never_r2	45460	9305	5365143	90920	118	2	1	1				1
+natural_language_inference	anli	anli_always_sometimes_never_r2_score_eval	136380		16095429	272760	118	2	1					1
+natural_language_inference	anli	anli_always_sometimes_never_r3	100459	20561	11229584	200918	112	2	1	1				1
+natural_language_inference	anli	anli_always_sometimes_never_r3_score_eval	301377		33688752	602754	112	2	1					1
+natural_language_inference	anli	anli_based_on_the_previous_passage_r1	16946	3469	2014680	33892	119	2	1	1				1
+natural_language_inference	anli	anli_based_on_the_previous_passage_r1_score_eval	50838		6044040	101676	119	2	1					1
+natural_language_inference	anli	anli_based_on_the_previous_passage_r2	45460	9305	5319683	90920	117	2	1	1				1
+natural_language_inference	anli	anli_based_on_the_previous_passage_r2_score_eval	136380		15959049	272760	117	2	1					1
+natural_language_inference	anli	anli_based_on_the_previous_passage_r3	100459	20561	11129125	200918	111	2	1	1				1
+natural_language_inference	anli	anli_based_on_the_previous_passage_r3_score_eval	301377		33387375	602754	111	2	1					1
+natural_language_inference	anli	anli_can_we_infer_r1	16946	3469	1963842	33892	116	2	1	1				1
+natural_language_inference	anli	anli_can_we_infer_r1_score_eval	50838		5891526	101676	116	2	1					1
+natural_language_inference	anli	anli_can_we_infer_r2	45460	9305	5183303	90920	114	2	1	1				1
+natural_language_inference	anli	anli_can_we_infer_r2_score_eval	136380		15549909	272760	114	2	1					1
+natural_language_inference	anli	anli_can_we_infer_r3	100459	20561	10827748	200918	108	2	1	1				1
+natural_language_inference	anli	anli_can_we_infer_r3_score_eval	301377		32483244	602754	108	2	1					1
+natural_language_inference	anli	anli_claim_true_false_inconclusive_r1	16946	3469	2048572	71146	121	4	1	1				1
+natural_language_inference	anli	anli_claim_true_false_inconclusive_r1_score_eval	50838		6145716	203352	121	4	1					1
+natural_language_inference	anli	anli_claim_true_false_inconclusive_r2	45460	9305	5410603	194862	119	4	1	1				1
+natural_language_inference	anli	anli_claim_true_false_inconclusive_r2_score_eval	136380		16231809	545520	119	4	1					1
+natural_language_inference	anli	anli_claim_true_false_inconclusive_r3	100459	20561	11330043	418808	113	4	1	1				1
+natural_language_inference	anli	anli_claim_true_false_inconclusive_r3_score_eval	301377		33990129	1205508	113	4	1					1
+natural_language_inference	anli	anli_consider_always_sometimes_never_r1	16946	3469	2029739	33892	120	2	1	1				1
+natural_language_inference	anli	anli_consider_always_sometimes_never_r1_score_eval	50838		6089217	101676	120	2	1					1
+natural_language_inference	anli	anli_consider_always_sometimes_never_r2	45460	9305	5358804	90920	118	2	1	1				1
+natural_language_inference	anli	anli_consider_always_sometimes_never_r2_score_eval	136380		16076412	272760	118	2	1					1
+natural_language_inference	anli	anli_consider_always_sometimes_never_r3	100459	20561	11222575	200918	112	2	1	1				1
+natural_language_inference	anli	anli_consider_always_sometimes_never_r3_score_eval	301377		33667725	602754	112	2	1					1
+natural_language_inference	anli	anli_does_it_follow_that_r1	16946	3469	1894171	33892	112	2	1	1				1
+natural_language_inference	anli	anli_does_it_follow_that_r1_score_eval	50838		5682513	101676	112	2	1					1
+natural_language_inference	anli	anli_does_it_follow_that_r2	45460	9305	4995124	90920	110	2	1	1				1
+natural_language_inference	anli	anli_does_it_follow_that_r2_score_eval	136380		14985372	272760	110	2	1					1
+natural_language_inference	anli	anli_does_it_follow_that_r3	100459	20561	10418903	200918	104	2	1	1				1
+natural_language_inference	anli	anli_does_it_follow_that_r3_score_eval	301377		31256709	602754	104	2	1					1
+natural_language_inference	anli	anli_does_this_imply_r1	16946	3469	1963842	33892	116	2	1	1				1
+natural_language_inference	anli	anli_does_this_imply_r1_score_eval	50838		5891526	101676	116	2	1					1
+natural_language_inference	anli	anli_does_this_imply_r2	45460	9305	5183303	90920	114	2	1	1				1
+natural_language_inference	anli	anli_does_this_imply_r2_score_eval	136380		15549909	272760	114	2	1					1
+natural_language_inference	anli	anli_does_this_imply_r3	100459	20561	10827748	200918	108	2	1	1				1
+natural_language_inference	anli	anli_does_this_imply_r3_score_eval	301377		32483244	602754	108	2	1					1
+natural_language_inference	anli	anli_guaranteed_possible_impossible_r1	16946	3469	1997734	52832	118	3	1	1				1
+natural_language_inference	anli	anli_guaranteed_possible_impossible_r1_score_eval	50838		5993202	169460	118	3	1					1
+natural_language_inference	anli	anli_guaranteed_possible_impossible_r2	45460	9305	5274223	135527	116	3	1	1				1
+natural_language_inference	anli	anli_guaranteed_possible_impossible_r2_score_eval	136380		15822669	454600	116	3	1					1
+natural_language_inference	anli	anli_guaranteed_possible_impossible_r3	100459	20561	11028666	315377	110	3	1	1				1
+natural_language_inference	anli	anli_guaranteed_possible_impossible_r3_score_eval	301377		33085998	1004590	110	3	1					1
+natural_language_inference	anli	anli_guaranteed_true_r1	16946	3469	1963842	33892	116	2	1	1				1
+natural_language_inference	anli	anli_guaranteed_true_r1_score_eval	50838		5891526	101676	116	2	1					1
+natural_language_inference	anli	anli_guaranteed_true_r2	45460	9305	5183303	90920	114	2	1	1				1
+natural_language_inference	anli	anli_guaranteed_true_r2_score_eval	136380		15549909	272760	114	2	1					1
+natural_language_inference	anli	anli_guaranteed_true_r3	100459	20561	10827748	200918	108	2	1	1				1
+natural_language_inference	anli	anli_guaranteed_true_r3_score_eval	301377		32483244	602754	108	2	1					1
+natural_language_inference	anli	anli_justified_in_saying_r1	16946	3469	1946896	33892	115	2	1	1				1
+natural_language_inference	anli	anli_justified_in_saying_r1_score_eval	50838		5840688	101676	115	2	1					1
+natural_language_inference	anli	anli_justified_in_saying_r2	45460	9305	5137843	90920	113	2	1	1				1
+natural_language_inference	anli	anli_justified_in_saying_r2_score_eval	136380		15413529	272760	113	2	1					1
+natural_language_inference	anli	anli_justified_in_saying_r3	100459	20561	10727289	200918	107	2	1	1				1
+natural_language_inference	anli	anli_justified_in_saying_r3_score_eval	301377		32181867	602754	107	2	1					1
+natural_language_inference	anli	anli_must_be_true_r1	16946	3469	1997734	33892	118	2	1	1				1
+natural_language_inference	anli	anli_must_be_true_r1_score_eval	50838		5993202	101676	118	2	1					1
+natural_language_inference	anli	anli_must_be_true_r2	45460	9305	5274223	90920	116	2	1	1				1
+natural_language_inference	anli	anli_must_be_true_r2_score_eval	136380		15822669	272760	116	2	1					1
+natural_language_inference	anli	anli_must_be_true_r3	100459	20561	11028666	200918	110	2	1	1				1
+natural_language_inference	anli	anli_must_be_true_r3_score_eval	301377		33085998	602754	110	2	1					1
+natural_language_inference	anli	anli_should_assume_r1	16946	3469	1963842	33892	116	2	1	1				1
+natural_language_inference	anli	anli_should_assume_r1_score_eval	50838		5891526	101676	116	2	1					1
+natural_language_inference	anli	anli_should_assume_r2	45460	9305	5183303	90920	114	2	1	1				1
+natural_language_inference	anli	anli_should_assume_r2_score_eval	136380		15549909	272760	114	2	1					1
+natural_language_inference	anli	anli_should_assume_r3	100459	20561	10827748	200918	108	2	1	1				1
+natural_language_inference	anli	anli_should_assume_r3_score_eval	301377		32483244	602754	108	2	1					1
+natural_language_inference	anli	anli_take_the_following_as_truth_r1	16946	3469	2116356	71146	125	4	1	1				1
+natural_language_inference	anli	anli_take_the_following_as_truth_r1_score_eval	50838		6349068	203352	125	4	1					1
+natural_language_inference	anli	anli_take_the_following_as_truth_r2	45460	9305	5592443	194862	123	4	1	1				1
+natural_language_inference	anli	anli_take_the_following_as_truth_r2_score_eval	136380		16777329	545520	123	4	1					1
+natural_language_inference	anli	anli_take_the_following_as_truth_r3	100459	20561	11731879	418808	117	4	1	1				1
+natural_language_inference	anli	anli_take_the_following_as_truth_r3_score_eval	301377		35195637	1205508	117	4	1					1
+paraphrase_identification	glue/mrpc	glue_mrpc_equivalent	3668		277819	8530	76	2	1	1	1	1	1	
+paraphrase_identification	glue/mrpc	glue_mrpc_generate_paraphrase	2474		89813	77664	36	31			1	1	1	
+paraphrase_identification	glue/mrpc	glue_mrpc_generate_sentence	2474		109605	77664	44	31			1	1	1	
+paraphrase_identification	glue/mrpc	glue_mrpc_paraphrase	3668		285155	7336	78	2	1	1	1	1	1	
+paraphrase_identification	glue/mrpc	glue_mrpc_replace	3668		277819	7336	76	2	1	1	1	1	1	
+paraphrase_identification	glue/mrpc	glue_mrpc_same_thing	3668		255811	7336	70	2	1	1	1	1	1	
+paraphrase_identification	glue/mrpc	glue_mrpc_want_to_know	3668		281487	7336	77	2	1	1	1	1	1	
+paraphrase_identification	glue/qqp	glue_qqp_answer	363846	83334	15320590	727692	42	2		1	1	1	1	
+paraphrase_identification	glue/qqp	glue_qqp_duplicate	363846	83334	15675660	727692	43	2	1	1	1	1	1	
+paraphrase_identification	glue/qqp	glue_qqp_duplicate_or_not	363846	83334	17338319	1321006	48	4	1	1	1	1	1	
+paraphrase_identification	glue/qqp	glue_qqp_meaning	363846	83334	17702165	363846	49	1	1		1	1	1	
+paraphrase_identification	glue/qqp	glue_qqp_quora	363846	83334	28774116	727692	79	2	1	1	1	1	1	
+paraphrase_identification	glue/qqp	glue_qqp_same_thing	363846	83334	14956744	727692	41	2	1	1	1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_Concatenation	49401	43700	4427338	98802	90	2	1	1	1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_Concatenation_no_label	49401	43700	4229734	98802	86	2	1	1	1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_Meaning	49401	43700	4575541	98802	93	2	1	1	1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_Meaning_no_label	49401	43700	4377937	98802	89	2	1	1	1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_PAWS_ANLI_GPT3	49401	43700	3439318	153946	70	3	1	1	1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_PAWS_ANLI_GPT3_no_label	49401	43700	3389917	98802	69	2	1	1	1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_Rewrite	49401	43700	4575541	98802	93	2	1	1	1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_Rewrite_no_label	49401	43700	4377937	98802	89	2	1	1	1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_context_question	49401	43700	3883908	98802	79	2	1	1	1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_context_question_no_label	49401	43700	3686304	98802	75	2	1	1	1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_paraphrase_task	21829	19310	784717	696631	36	32			1	1	1	
+paraphrase_identification	paws/labeled_final	paws_labeled_final_task_description_no_label	49401	43700	4130932	98802	84	2	1	1	1	1	1	
+closed_book_qa	ai2_arc/ARC-Challenge	ai2_arc_ARC_Challenge_heres_a_problem	1119		102969	2238	92	2	1	1		1	1	
+closed_book_qa	ai2_arc/ARC-Challenge	ai2_arc_ARC_Challenge_i_am_hesitating	1119		101860	8618	91	8	1	1		1	1	
+closed_book_qa	ai2_arc/ARC-Challenge	ai2_arc_ARC_Challenge_multiple_choice	1119		100741	8618	90	8	1	1		1	1	
+closed_book_qa	ai2_arc/ARC-Challenge	ai2_arc_ARC_Challenge_pick_false_options	1119		85075	29732	76	27				1	1	
+closed_book_qa	ai2_arc/ARC-Challenge	ai2_arc_ARC_Challenge_pick_the_most_correct_option	1119		92898	2238	83	2	1	1		1	1	
+closed_book_qa	ai2_arc/ARC-Challenge	ai2_arc_ARC_Challenge_qa_options	1119		71647	8618	64	8	1	1		1	1	
+closed_book_qa	ai2_arc/ARC-Easy	ai2_arc_ARC_Easy_heres_a_problem	2251		186961	4502	83	2	1	1		1	1	
+closed_book_qa	ai2_arc/ARC-Easy	ai2_arc_ARC_Easy_i_am_hesitating	2251		184739	13985	82	6	1	1		1	1	
+closed_book_qa	ai2_arc/ARC-Easy	ai2_arc_ARC_Easy_multiple_choice	2251		182488	13985	81	6	1	1		1	1	
+closed_book_qa	ai2_arc/ARC-Easy	ai2_arc_ARC_Easy_pick_false_options	2251		150974	50673	67	23				1	1	
+closed_book_qa	ai2_arc/ARC-Easy	ai2_arc_ARC_Easy_pick_the_most_correct_option	2251		166702	4502	74	2	1	1		1	1	
+closed_book_qa	ai2_arc/ARC-Easy	ai2_arc_ARC_Easy_qa_options	2251		123962	13985	55	6	1	1		1	1	
+closed_book_qa	kilt_tasks/hotpotqa	kilt_tasks_hotpotqa_combining_facts	88869		2796937	420322	31	5			1	1	1	
+closed_book_qa	kilt_tasks/hotpotqa	kilt_tasks_hotpotqa_complex_question	88869		4129972	420322	46	5			1	1	1	
+closed_book_qa	kilt_tasks/hotpotqa	kilt_tasks_hotpotqa_final_exam	88869		2974675	420322	33	5			1	1	1	
+closed_book_qa	kilt_tasks/hotpotqa	kilt_tasks_hotpotqa_formulate	88869		3152413	420322	35	5			1	1	1	
+closed_book_qa	kilt_tasks/hotpotqa	kilt_tasks_hotpotqa_straighforward_qa	88869		2263723	420322	25	5			1	1	1	
+closed_book_qa	trivia_qa/unfiltered	trivia_qa_unfiltered_first_person_context	87622		2313922	536239	26	6	1			1	1	
+closed_book_qa	trivia_qa/unfiltered	trivia_qa_unfiltered_formal_description	87622		3628252	536219	41	6	1			1	1	
+closed_book_qa	trivia_qa/unfiltered	trivia_qa_unfiltered_guess_question	87622		1393449	1875812	16	21				1	1	
+closed_book_qa	trivia_qa/unfiltered	trivia_qa_unfiltered_question_answer	87622		2313922	536219	26	6	1			1	1	
+closed_book_qa	trivia_qa/unfiltered	trivia_qa_unfiltered_question_with_instruction	87622		2226300	536223	25	6	1			1	1	
+closed_book_qa	web_questions	web_questions_get_the_answer	3778		76175	18179	20	5	1			1	1	
+closed_book_qa	web_questions	web_questions_potential_correct_answer	3778		83733	18218	22	5	1			1	1	
+closed_book_qa	web_questions	web_questions_question_answer	3778		42175	18151	11	5	1			1	1	
+closed_book_qa	web_questions	web_questions_short_general_knowledge_q	3778		61063	18179	16	5	1			1	1	
+closed_book_qa	web_questions	web_questions_whats_the_answer	3778		76175	18218	20	5	1			1	1	
+closed_book_qa	wiki_qa	wiki_qa_Decide_good_answer	20360		1331931	40720	65	2	1	1	1	1	1	
+closed_book_qa	wiki_qa	wiki_qa_Direct_Answer_to_Question	1040		13932	41519	13	40	1		1	1	1	
+closed_book_qa	wiki_qa	wiki_qa_Generate_Question_from_Topic	1040		63517	10812	61	10			1	1	1	
+closed_book_qa	wiki_qa	wiki_qa_Is_This_True_	20360		1077589	40720	53	2	1	1	1	1	1	
+closed_book_qa	wiki_qa	wiki_qa_Jeopardy_style	1040		57930	11990	56	12			1	1	1	
+closed_book_qa	wiki_qa	wiki_qa_Topic_Prediction_Answer_Only	1040		51545	5424	50	5			1	1	1	
+closed_book_qa	wiki_qa	wiki_qa_Topic_Prediction_Question_Only	1040		22390	5424	22	5			1	1	1	
+closed_book_qa	wiki_qa	wiki_qa_Topic_Prediction_Question_and_Answer_Pair	1040		72895	5424	70	5			1	1	1	
+closed_book_qa	wiki_qa	wiki_qa_automatic_system	20360		1413183	40720	69	2	1	1	1	1	1	
+closed_book_qa	wiki_qa	wiki_qa_exercise	20360		1657503	79360	81	4	1	1	1	1	1	
+closed_book_qa	wiki_qa	wiki_qa_found_on_google	20360		1291023	40720	63	2	1	1	1	1	1	
+extractive_qa	adversarial_qa/dbidaf	adversarial_qa_dbidaf_answer_the_following_q	10000		2083052	66220	208	7	1		1	1	1	
+extractive_qa	adversarial_qa/dbidaf	adversarial_qa_dbidaf_based_on	10000		2007192	66220	201	7	1		1	1	1	
+extractive_qa	adversarial_qa/dbidaf	adversarial_qa_dbidaf_generate_question	10000		2067551	137077	207	14			1	1	1	
+extractive_qa	adversarial_qa/dbidaf	adversarial_qa_dbidaf_question_context_answer	10000		1947624	66220	195	7	1		1	1	1	
+extractive_qa	adversarial_qa/dbidaf	adversarial_qa_dbidaf_tell_what_it_is	10000		2066038	66220	207	7	1		1	1	1	
+extractive_qa	adversarial_qa/dbert	adversarial_qa_dbert_answer_the_following_q	10000		2089289	65990	209	7	1		1	1	1	
+extractive_qa	adversarial_qa/dbert	adversarial_qa_dbert_based_on	10000		2013489	65990	201	7	1		1	1	1	
+extractive_qa	adversarial_qa/dbert	adversarial_qa_dbert_generate_question	10000		2072755	138128	207	14			1	1	1	
+extractive_qa	adversarial_qa/dbert	adversarial_qa_dbert_question_context_answer	10000		1953272	65990	195	7	1		1	1	1	
+extractive_qa	adversarial_qa/dbert	adversarial_qa_dbert_tell_what_it_is	10000		2071670	65990	207	7	1		1	1	1	
+extractive_qa	adversarial_qa/droberta	adversarial_qa_droberta_answer_the_following_q	10000		2051394	73677	205	7	1		1	1	1	
+extractive_qa	adversarial_qa/droberta	adversarial_qa_droberta_based_on	10000		1975814	73677	198	7	1		1	1	1	
+extractive_qa	adversarial_qa/droberta	adversarial_qa_droberta_generate_question	10000		2032929	140096	203	14			1	1	1	
+extractive_qa	adversarial_qa/droberta	adversarial_qa_droberta_question_context_answer	10000		1917394	73677	192	7	1		1	1	1	
+extractive_qa	adversarial_qa/droberta	adversarial_qa_droberta_tell_what_it_is	10000		2035755	73677	204	7	1		1	1	1	
+extractive_qa	duorc/SelfRC	duorc_SelfRC_answer_question	60721	55684	32811030	308450	540	5	1		1	1	1	
+extractive_qa	duorc/SelfRC	duorc_SelfRC_build_story_around_qa	60094	55109	1362485	29523061	23	491			1	1	1	
+extractive_qa	duorc/SelfRC	duorc_SelfRC_decide_worth_it	60721	55684	33782566	310377	556	5	1		1	1	1	
+extractive_qa	duorc/SelfRC	duorc_SelfRC_extract_answer	60721	55684	32932472	309709	542	5	1		1	1	1	
+extractive_qa	duorc/SelfRC	duorc_SelfRC_generate_question	60721	55684	30434833	702285	501	12			1	1	1	
+extractive_qa	duorc/SelfRC	duorc_SelfRC_generate_question_by_answer	60094	55109	30731033	695352	511	12			1	1	1	
+extractive_qa	duorc/SelfRC	duorc_SelfRC_movie_director	60721	55684	33478961	309095	551	5	1		1	1	1	
+extractive_qa	duorc/SelfRC	duorc_SelfRC_question_answering	60721	55684	32264541	312224	531	5	1		1	1	1	
+extractive_qa	duorc/SelfRC	duorc_SelfRC_title_generation	60721	55684	30556275	338050	503	6			1	1	1	
+extractive_qa	duorc/ParaphraseRC	duorc_ParaphraseRC_answer_question	69524	57537	38423770	347905	553	5	1		1	1	1	
+extractive_qa	duorc/ParaphraseRC	duorc_ParaphraseRC_build_story_around_qa	58752	48622	1348939	30211547	23	514			1	1	1	
+extractive_qa	duorc/ParaphraseRC	duorc_ParaphraseRC_decide_worth_it	69524	57537	39536154	380506	569	5	1		1	1	1	
+extractive_qa	duorc/ParaphraseRC	duorc_ParaphraseRC_extract_answer	69524	57537	38562818	369678	555	5	1		1	1	1	
+extractive_qa	duorc/ParaphraseRC	duorc_ParaphraseRC_generate_question	69524	57537	35710951	806236	514	12			1	1	1	
+extractive_qa	duorc/ParaphraseRC	duorc_ParaphraseRC_generate_question_by_answer	58752	48622	31408671	680512	535	12			1	1	1	
+extractive_qa	duorc/ParaphraseRC	duorc_ParaphraseRC_movie_director	69524	57537	39188534	358619	564	5	1		1	1	1	
+extractive_qa	duorc/ParaphraseRC	duorc_ParaphraseRC_question_answering	69524	57537	37798054	412792	544	6	1		1	1	1	
+extractive_qa	duorc/ParaphraseRC	duorc_ParaphraseRC_title_generation	69524	57537	35849999	377055	516	5			1	1	1	
+extractive_qa	ropes	ropes_background_new_situation_answer	10924		2817362	28333	258	3	1		1	1	1	
+extractive_qa	ropes	ropes_background_situation_middle	10924		2817362	28333	258	3	1		1	1	1	
+extractive_qa	ropes	ropes_given_background_situation	10924		2740894	28333	251	3	1		1	1	1	
+extractive_qa	ropes	ropes_new_situation_background_answer	10924		2839210	28333	260	3	1		1	1	1	
+extractive_qa	ropes	ropes_plain_background_situation	10924		2598882	28333	238	3	1		1	1	1	
+extractive_qa	ropes	ropes_plain_bottom_hint	10924		2631654	28333	241	3	1		1	1	1	
+extractive_qa	ropes	ropes_plain_no_background	10924		820426	28333	75	3			1	1	1	
+extractive_qa	ropes	ropes_prompt_beginning	10924		2762742	28333	253	3	1		1	1	1	
+extractive_qa	ropes	ropes_prompt_bottom_hint_beginning	10924		2784590	28333	255	3	1		1	1	1	
+extractive_qa	ropes	ropes_prompt_bottom_no_hint	10924		951514	28333	87	3			1	1	1	
+extractive_qa	ropes	ropes_prompt_mix	10924		2762742	28333	253	3	1		1	1	1	
+extractive_qa	ropes	ropes_read_background_situation	10924		3057690	28333	280	3	1		1	1	1	
+extractive_qa	squad_v2	squad_v2_Jeopardy_with_Context	86821	31235	17937979	1271990	207	15				1	1	
+extractive_qa	squad_v2	squad_v2_Jeopardy_without_Context	86821	31235	1903702	1271990	22	15				1	1	
+extractive_qa	squad_v2	squad_v2_Questions_with_Context	130319	46883	26464935	732700	203	6	1			1	1	
+extractive_qa	squad_v2	squad_v2_Questions_with_Context_Without_Prompt_Keywords	130319	46883	24884731	732700	191	6	1			1	1	
+extractive_qa	squad_v2	squad_v2_Questions_with_Context_Without_Prompt_Keywords_unanswerable	130319	46883	27100013	732700	208	6	1			1	1	
+extractive_qa	squad_v2	squad_v2_Questions_with_Context_unanswerable	130319	46883	28676404	732700	220	6	1			1	1	
+extractive_qa	squad_v2	squad_v2_Topic_Prediction_Context	130319	46883	23602916	574233	181	4				1	1	
+extractive_qa	squad_v2	squad_v2_Topic_Prediction_Context_with_randomized_prompt_options	130319	46883	23435376	574233	180	4				1	1	
+extractive_qa	squad_v2	squad_v2_Topic_Prediction_Context_with_randomized_prompt_options_placed_in_the_end	130319	46883	23356596	574233	179	4				1	1	
+extractive_qa	squad_v2	squad_v2_Topic_Prediction_Question_and_Answer_Pair	86821	31235	2947116	545667	34	6				1	1	
+extractive_qa	squad_v2	squad_v2_Trivia	86821	31235	1185169	515210	14	6				1	1	
+extractive_qa	squad_v2	squad_v2_Unanwerable_question	130319	46883	26135293	260638	201	2		1		1	1	
+extractive_qa	super_glue/record	super_glue_record_Add_sentence_after_after_continuation_choices_	100730	25000	27209141	3151092	270	31	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_Add_sentence_after_continuation_choices_	100730	25000	26097587	3151339	259	31	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_Can_you_figure_out_	100730	25000	29887139	355193	297	4	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_GPT_3_style_continuation_choices_	100730	25000	24788097	3352449	246	33	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_GPT_3_style_summary_only_continuation_choices_	100730	25000	24993081	3352449	248	33	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_GPT_3_style_with_labels_continuation_choices_	100730	25000	25295271	3352217	251	33		1			1	
+extractive_qa	super_glue/record	super_glue_record_GPT_3_style_with_labels_without_hyphens_continuation_choices_	100730	25000	24507285	3151349	243	31		1			1	
+extractive_qa	super_glue/record	super_glue_record_GPT_3_style_without_hyphens_continuation_choices_	100730	25000	24000433	3151624	238	31	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_In_the_question_above_the_placeholder_stands_for	100730	25000	29584949	355526	294	4	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_New_highlight_continuation_choices_	100730	25000	25698191	3352181	255	33	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_News_article_continuation_choices_	100730	25000	26299047	3151092	261	31	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_Summary_first_continuation_choices_	100730	25000	25194541	3151092	250	31	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_What_could_the_placeholder_be_	100730	25000	33540926	355091	333	4	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_Which_one_is_the_placeholder_	100730	25000	33540926	355493	333	4	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_choose_between	100730	25000	35429271	354827	352	4	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_corrupted	100730	25000	30692979	355091	305	4	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_exercise	100730	25000	30290059	355091	301	4	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_pick_one_option	100730	25000	35026351	355351	348	4	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_the_placeholder_refers_to_	100730	25000	28980569	355195	288	4	1	1			1	
+extractive_qa	super_glue/record	super_glue_record_trying_to_decide	100730	25000	36134381	354875	359	4	1	1			1	
+extractive_qa	quoref	quoref_Answer_Friend_Question	19399		9472637	80866	488	4	1		1	1	1	
+extractive_qa	quoref	quoref_Answer_Question_Given_Context	19399		9239909	80952	476	4	1		1	1	1	
+extractive_qa	quoref	quoref_Answer_Test	19399		9492097	81000	489	4	1		1	1	1	
+extractive_qa	quoref	quoref_Context_Contains_Answer	19399		9356286	80855	482	4	1		1	1	1	
+extractive_qa	quoref	quoref_Find_Answer	19399		9395102	80883	484	4	1		1	1	1	
+extractive_qa	quoref	quoref_Found_Context_Online	19399		9298107	80951	479	4	1		1	1	1	
+extractive_qa	quoref	quoref_Given_Context_Answer_Question	19399		9259308	80855	477	4	1		1	1	1	
+extractive_qa	quoref	quoref_Guess_Answer	19399		9395058	80868	484	4	1		1	1	1	
+extractive_qa	quoref	quoref_Guess_Title_For_Context	19399		8913112	127969	459	7			1	1	1	
+extractive_qa	quoref	quoref_Read_And_Extract_	19399		9278707	80951	478	4	1		1	1	1	
+extractive_qa	quoref	quoref_What_Is_The_Answer	19399		9317505	80855	480	4	1		1	1	1	
+multiple_choice_qa	cos_e/v1.11	cos_e_v1.11_aligned_with_common_sense	9741		634166	98788	65	10			1	1	1	
+multiple_choice_qa	cos_e/v1.11	cos_e_v1.11_description_question_option_id	9741		520936	19482	53	2	1	1	1	1	1	
+multiple_choice_qa	cos_e/v1.11	cos_e_v1.11_description_question_option_text	9741		520936	28260	53	3	1	1	1	1	1	
+multiple_choice_qa	cos_e/v1.11	cos_e_v1.11_explain_why_human	9741		565987	98788	58	10			1	1	1	
+multiple_choice_qa	cos_e/v1.11	cos_e_v1.11_generate_explanation_given_text	9741		478318	98788	49	10			1	1	1	
+multiple_choice_qa	cos_e/v1.11	cos_e_v1.11_i_think	9741		653656	98788	67	10			1	1	1	
+multiple_choice_qa	cos_e/v1.11	cos_e_v1.11_question_description_option_id	9741		481972	19482	49	2	1	1	1	1	1	
+multiple_choice_qa	cos_e/v1.11	cos_e_v1.11_question_description_option_text	9741		481972	28260	49	3	1	1	1	1	1	
+multiple_choice_qa	cos_e/v1.11	cos_e_v1.11_question_option_description_id	9741		394303	19482	40	2	1	1	1	1	1	
+multiple_choice_qa	cos_e/v1.11	cos_e_v1.11_question_option_description_text	9741		394303	28260	40	3	1	1	1	1	1	
+multiple_choice_qa	cos_e/v1.11	cos_e_v1.11_rationale	9741		556246	98788	57	10			1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_context_answer_to_question	25262		2962266	362259	117	14			1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_context_description_question_answer_id	25262		4270337	50524	169	2	1	1	1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_context_description_question_answer_text	25262		4270337	280206	169	11	1	1	1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_context_description_question_text	25262		2867485	280206	114	11	1	1	1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_context_question_description_answer_id	25262		3992455	50524	158	2	1	1	1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_context_question_description_answer_text	25262		3992455	280206	158	11	1	1	1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_context_question_description_text	25262		2816961	280206	112	11		1	1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_description_context_question_answer_id	25262		4295599	50524	170	2	1	1	1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_description_context_question_answer_text	25262		4295599	280206	170	11	1	1	1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_description_context_question_text	25262		2993795	280206	119	11	1	1	1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_no_prompt_id	25262		3765097	50524	149	2	1	1	1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_no_prompt_text	25262		3765097	280206	149	11	1	1	1	1	1	
+multiple_choice_qa	cosmos_qa	cosmos_qa_only_question_answer	25262		336997	280206	13	11		1	1	1	1	
+multiple_choice_qa	dream	dream_answer_to_dialogue	6116		206146	964433	34	158			1	1	1	
+multiple_choice_qa	dream	dream_baseline	6116		1190809	43114	195	7	1	1	1	1	1	
+multiple_choice_qa	dream	dream_generate_first_utterance	6116		893605	118112	146	19			1	1	1	
+multiple_choice_qa	dream	dream_generate_last_utterance	6116		909735	133451	149	22			1	1	1	
+multiple_choice_qa	dream	dream_read_the_following_conversation_and_answer_the_question	6116		1227505	43114	201	7	1	1	1	1	1	
+multiple_choice_qa	openbookqa/main	openbookqa_main_choices	4957		194804	25959	39	5	1	1		1	1	
+multiple_choice_qa	openbookqa/main	openbookqa_main_choose_an_answer_with_options	4957		214632	25959	43	5	1	1		1	1	
+multiple_choice_qa	openbookqa/main	openbookqa_main_only_options	4957		179933	25959	36	5	1	1		1	1	
+multiple_choice_qa	openbookqa/main	openbookqa_main_pick_answer_with_options	4957		219589	25959	44	5	1	1		1	1	
+multiple_choice_qa	openbookqa/main	openbookqa_main_pick_using_id	4957		269159	9914	54	2	1	1		1	1	
+multiple_choice_qa	openbookqa/main	openbookqa_main_which_correct	4957		209675	25959	42	5	1	1		1	1	
+multiple_choice_qa	openbookqa/main	openbookqa_main_which_correct_inverse	4957		209675	25959	42	5	1	1		1	1	
+multiple_choice_qa	qasc	qasc_is_correct_1	8134		370709	16268	46	2		1	1	1	1	
+multiple_choice_qa	qasc	qasc_is_correct_2	8134		336572	16268	41	2		1	1	1	1	
+multiple_choice_qa	qasc	qasc_qa_with_combined_facts_1	8134		519887	29584	64	4		1	1	1	1	
+multiple_choice_qa	qasc	qasc_qa_with_separated_facts_1	8134		665631	29584	82	4	1	1	1	1	1	
+multiple_choice_qa	qasc	qasc_qa_with_separated_facts_2	8134		767998	29584	94	4	1	1	1	1	1	
+multiple_choice_qa	qasc	qasc_qa_with_separated_facts_3	8134		402141	29584	49	4	1	1	1	1	1	
+multiple_choice_qa	qasc	qasc_qa_with_separated_facts_4	8134		762639	29584	94	4	1	1	1	1	1	
+multiple_choice_qa	qasc	qasc_qa_with_separated_facts_5	8134		684221	29584	84	4	1	1	1	1	1	
+multiple_choice_qa	quail	quail_context_description_question_answer_id	10246		5160994	20492	504	2	1	1	1	1	1	
+multiple_choice_qa	quail	quail_context_description_question_answer_text	10246		5160994	70349	504	7	1	1	1	1	1	
+multiple_choice_qa	quail	quail_context_description_question_text	10246		4779424	70349	466	7		1	1	1	1	
+multiple_choice_qa	quail	quail_context_question_answer_description_id	10246		5068780	20492	495	2	1	1	1	1	1	
+multiple_choice_qa	quail	quail_context_question_answer_description_text	10246		5068780	70349	495	7	1	1	1	1	1	
+multiple_choice_qa	quail	quail_context_question_description_answer_id	10246		5048288	20492	493	2	1	1	1	1	1	
+multiple_choice_qa	quail	quail_context_question_description_answer_text	10246		5048288	70349	493	7	1	1	1	1	1	
+multiple_choice_qa	quail	quail_context_question_description_text	10246		4789670	70349	467	7		1	1	1	1	
+multiple_choice_qa	quail	quail_description_context_question_answer_id	10246		5171240	20492	505	2	1	1	1	1	1	
+multiple_choice_qa	quail	quail_description_context_question_answer_text	10246		5171240	70349	505	7	1	1	1	1	1	
+multiple_choice_qa	quail	quail_description_context_question_text	10246		4830654	70349	471	7		1	1	1	1	
+multiple_choice_qa	quail	quail_no_prompt_id	10246		4956074	20492	484	2	1	1	1	1	1	
+multiple_choice_qa	quail	quail_no_prompt_text	10246		4956074	70349	484	7	1	1	1	1	1	
+multiple_choice_qa	quarel	quarel_choose_between	1941		124426	6271	64	3		1	1	1	1	
+multiple_choice_qa	quarel	quarel_do_not_use	1941		149659	6271	77	3		1	1	1	1	
+multiple_choice_qa	quarel	quarel_heres_a_story	1941		151598	6271	78	3		1	1	1	1	
+multiple_choice_qa	quarel	quarel_logic_test	1941		139954	6271	72	3		1	1	1	1	
+multiple_choice_qa	quarel	quarel_testing_students	1941		157423	6271	81	3		1	1	1	1	
+multiple_choice_qa	quartz	quartz_answer_question_based_on	2696		174692	7305	65	3	1	1	1	1	1	
+multiple_choice_qa	quartz	quartz_answer_question_below	2696		163908	7305	61	3	1	1	1	1	1	
+multiple_choice_qa	quartz	quartz_given_the_fact_answer_the_q	2696		161212	7305	60	3	1	1	1	1	1	
+multiple_choice_qa	quartz	quartz_having_read_above_passage	2696		210870	7305	78	3	1	1	1	1	1	
+multiple_choice_qa	quartz	quartz_paragraph_question_plain_concat	2696		136948	7305	51	3	1	1	1	1	1	
+multiple_choice_qa	quartz	quartz_read_passage_below_choose	2696		205478	7305	76	3	1	1	1	1	1	
+multiple_choice_qa	quartz	quartz_use_info_from_paragraph_question	2696		180084	7305	67	3	1	1	1	1	1	
+multiple_choice_qa	quartz	quartz_use_info_from_question_paragraph	2696		180084	7305	67	3	1	1	1	1	1	
+multiple_choice_qa	race/high	race_high_Is_this_the_right_answer	62445		26658687	124890	427	2		1		1	1	
+multiple_choice_qa	race/high	race_high_Read_the_article_and_answer_the_question_no_option_	62445		26210337	566242	420	9	1	1		1	1	
+multiple_choice_qa	race/high	race_high_Select_the_best_answer	62445		28669801	124890	459	2	1	1		1	1	
+multiple_choice_qa	race/high	race_high_Select_the_best_answer_generate_span_	62445		28607356	566242	458	9	1	1		1	1	
+multiple_choice_qa	race/high	race_high_Select_the_best_answer_no_instructions_	62445		27733126	124890	444	2	1	1		1	1	
+multiple_choice_qa	race/high	race_high_Taking_a_test	62445		29419141	124890	471	2	1	1		1	1	
+multiple_choice_qa	race/high	race_high_Write_a_multi_choice_question_for_the_following_article	62445		25357892	3561689	406	57				1	1	
+multiple_choice_qa	race/high	race_high_Write_a_multi_choice_question_options_given_	62445		28945603	914890	464	15				1	1	
+multiple_choice_qa	race/middle	race_middle_Is_this_the_right_answer	25421		7268940	50842	286	2		1		1	1	
+multiple_choice_qa	race/middle	race_middle_Read_the_article_and_answer_the_question_no_option_	25421		7140702	175586	281	7	1	1		1	1	
+multiple_choice_qa	race/middle	race_middle_Select_the_best_answer	25421		7916703	50842	311	2	1	1		1	1	
+multiple_choice_qa	race/middle	race_middle_Select_the_best_answer_generate_span_	25421		7891282	175586	310	7	1	1		1	1	
+multiple_choice_qa	race/middle	race_middle_Select_the_best_answer_no_instructions_	25421		7535388	50842	296	2	1	1		1	1	
+multiple_choice_qa	race/middle	race_middle_Taking_a_test	25421		8221755	50842	323	2	1	1		1	1	
+multiple_choice_qa	race/middle	race_middle_Write_a_multi_choice_question_for_the_following_article	25421		6835570	1182817	269	47				1	1	
+multiple_choice_qa	race/middle	race_middle_Write_a_multi_choice_question_options_given_	25421		8015946	330553	315	13				1	1	
+multiple_choice_qa	sciq	sciq_Direct_Question	11679		1481990	43614	127	4	1	1	1	1	1	
+multiple_choice_qa	sciq	sciq_Direct_Question_Closed_Book_	11679		250371	43614	21	4	1	1	1	1	1	
+multiple_choice_qa	sciq	sciq_Multiple_Choice	11679		1731239	43614	148	4	1	1	1	1	1	
+multiple_choice_qa	sciq	sciq_Multiple_Choice_Closed_Book_	11679		499620	43614	43	4		1	1	1	1	
+multiple_choice_qa	sciq	sciq_Multiple_Choice_Question_First	11679		1789634	43614	153	4	1	1	1	1	1	
+multiple_choice_qa	social_i_qa	social_i_qa_Check_if_a_random_answer_is_valid_or_not	33410		1460963	66820	44	2	1	1	1	1	1	
+multiple_choice_qa	social_i_qa	social_i_qa_Generate_answer	33410		998299	175841	30	5	1	1	1	1	1	
+multiple_choice_qa	social_i_qa	social_i_qa_Generate_the_question_from_the_answer	33410		1304087	290401	39	9			1	1	1	
+multiple_choice_qa	social_i_qa	social_i_qa_I_was_wondering	33410		1098529	175841	33	5	1	1	1	1	1	
+multiple_choice_qa	social_i_qa	social_i_qa_Show_choices_and_generate_answer	33410		1592900	175841	48	5	1	1	1	1	1	
+multiple_choice_qa	social_i_qa	social_i_qa_Show_choices_and_generate_index	33410		2127467	66820	64	2	1	1	1	1	1	
+multiple_choice_qa	super_glue/boolq	super_glue_boolq_GPT_3_Style	9427		1465739	18854	155	2	1	1			1	
+multiple_choice_qa	super_glue/boolq	super_glue_boolq_I_wonder_	9427		1503448	18854	159	2	1	1			1	
+multiple_choice_qa	super_glue/boolq	super_glue_boolq_after_reading	9427		1625999	25960	172	3	1	1			1	
+multiple_choice_qa	super_glue/boolq	super_glue_boolq_based_on_the_following_passage	9427		1494021	18854	158	2	1	1			1	
+multiple_choice_qa	super_glue/boolq	super_glue_boolq_based_on_the_previous_passage	9427		1494021	18854	158	2	1	1			1	
+multiple_choice_qa	super_glue/boolq	super_glue_boolq_could_you_tell_me_	9427		1522302	18854	161	2	1	1			1	
+multiple_choice_qa	super_glue/boolq	super_glue_boolq_exam	9427		1569437	18854	166	2	1	1			1	
+multiple_choice_qa	super_glue/boolq	super_glue_boolq_exercise	9427		1625999	25960	172	3	1	1			1	
+multiple_choice_qa	super_glue/boolq	super_glue_boolq_valid_binary	9427		1512875	25960	160	3	1	1			1	
+multiple_choice_qa	super_glue/boolq	super_glue_boolq_yes_no_question	9427		1578864	18854	167	2	1	1			1	
+multiple_choice_qa	super_glue/multirc	super_glue_multirc_I_was_going_to_say_	27243		10506949	54486	386	2	1	1			1	
+multiple_choice_qa	super_glue/multirc	super_glue_multirc_Would_it_be_good_to_answer_	27243		10424821	54486	383	2	1	1			1	
+multiple_choice_qa	super_glue/multirc	super_glue_multirc_confirm	27243		10724494	54486	394	2	1	1			1	
+multiple_choice_qa	super_glue/multirc	super_glue_multirc_correct	27243		10778980	54486	396	2	1	1			1	
+multiple_choice_qa	super_glue/multirc	super_glue_multirc_decide_valid	27243		10724494	54486	394	2	1	1			1	
+multiple_choice_qa	super_glue/multirc	super_glue_multirc_found_this_answer	27243		10643164	54486	391	2	1	1			1	
+multiple_choice_qa	super_glue/multirc	super_glue_multirc_grading	27243		10724494	54486	394	2	1	1			1	
+multiple_choice_qa	super_glue/multirc	super_glue_multirc_is_a_correct_answer_	27243		10588279	54486	389	2	1	1			1	
+multiple_choice_qa	super_glue/multirc	super_glue_multirc_is_the_correct_answer_	27243		10378650	54486	381	2	1	1			1	
+multiple_choice_qa	super_glue/multirc	super_glue_multirc_paragraph_question_is_it_	27243		10324164	54486	379	2	1	1			1	
+multiple_choice_qa	wiki_hop/original	wiki_hop_original_choose_best_object_affirmative_1	43738		80664391	202294	1844	5	1	1	1	1	1	
+multiple_choice_qa	wiki_hop/original	wiki_hop_original_choose_best_object_affirmative_2	43738		80664391	202294	1844	5	1	1	1	1	1	
+multiple_choice_qa	wiki_hop/original	wiki_hop_original_choose_best_object_affirmative_3	43738		81014295	202294	1852	5	1	1	1	1	1	
+multiple_choice_qa	wiki_hop/original	wiki_hop_original_choose_best_object_interrogative_1	43738		80183273	202294	1833	5	1	1	1	1	1	
+multiple_choice_qa	wiki_hop/original	wiki_hop_original_choose_best_object_interrogative_2	43738		80183273	202294	1833	5	1	1	1	1	1	
+multiple_choice_qa	wiki_hop/original	wiki_hop_original_explain_relation	43738		76273031	154779	1744	4			1	1	1	
+multiple_choice_qa	wiki_hop/original	wiki_hop_original_generate_object	43738		76285059	202294	1744	5			1	1	1	
+multiple_choice_qa	wiki_hop/original	wiki_hop_original_generate_subject	43738		76456534	302220	1748	7			1	1	1	
+multiple_choice_qa	wiki_hop/original	wiki_hop_original_generate_subject_and_object	43738		76242945	548252	1743	13			1	1	1	
+multiple_choice_qa	wiqa	wiqa_does_the_supposed_perturbation_have_an_effect	29808		3872180	59616	130	2			1	1	1	
+multiple_choice_qa	wiqa	wiqa_effect_with_label_answer	29808		3723140	59616	125	2	1		1	1	1	
+multiple_choice_qa	wiqa	wiqa_effect_with_string_answer	29808		3842372	69552	129	2	1		1	1	1	
+multiple_choice_qa	wiqa	wiqa_what_is_the_final_step_of_the_following_process	29808		2380243	364490	80	12			1	1	1	
+multiple_choice_qa	wiqa	wiqa_what_is_the_missing_first_step	29808		2485959	304124	83	10			1	1	1	
+multiple_choice_qa	wiqa	wiqa_what_might_be_the_first_step_of_the_process	29808		2456151	304124	82	10			1	1	1	
+multiple_choice_qa	wiqa	wiqa_what_might_be_the_last_step_of_the_process	29808		2380243	364490	80	12			1	1	1	
+multiple_choice_qa	wiqa	wiqa_which_of_the_following_is_the_supposed_perturbation	29808		4438532	288144	149	10			1	1	1	
+multiple_choice_qa	piqa	piqa_Correct_the_solution	16113		1028988	412477	64	26				1	1	
+multiple_choice_qa	piqa	piqa_Correct_the_solution_if_false_from_sol_1	16113		1011840	560899	63	35				1	1	
+multiple_choice_qa	piqa	piqa_Correct_the_solution_if_false_from_sol_2	16113		1092584	560899	68	35				1	1	
+multiple_choice_qa	piqa	piqa_Does_this_solution_make_sense_sol1	16113		721806	32226	45	2		1		1	1	
+multiple_choice_qa	piqa	piqa_Does_this_solution_make_sense_sol2	16113		642481	32226	40	2		1		1	1	
+multiple_choice_qa	piqa	piqa_choose_the_most_appropriate_solution	16113		1505917	48339	93	3	1	1		1	1	
+multiple_choice_qa	piqa	piqa_finish_sentence_with_correct_choice	16113		1231996	412477	76	26	1	1		1	1	
+multiple_choice_qa	piqa	piqa_no_prompt_needed	16113		149469	411430	9	26				1	1	
+multiple_choice_qa	piqa	piqa_pick_correct_choice_index	16113		1360900	32226	84	2	1	1		1	1	
+multiple_choice_qa	piqa	piqa_pick_correct_choice_with_choice_given_before_goal	16113		1344787	412477	83	26	1	1		1	1	
+multiple_choice_qa	piqa	piqa_what_is_the_correct_ending	16113		1167544	412477	72	26	1	1		1	1	
+sentiment	amazon_polarity	amazon_polarity_Is_this_product_review_positive	3600000	55556	435440200	7200000	121	2	1	1	1	1	1	
+sentiment	amazon_polarity	amazon_polarity_Is_this_review	3600000	55556	431840201	9000000	120	3	1	1	1	1	1	
+sentiment	amazon_polarity	amazon_polarity_Is_this_review_negative	3600000	55556	428240201	7200000	119	2	1	1	1	1	1	
+sentiment	amazon_polarity	amazon_polarity_User_recommend_this_product	3600000	55556	433323503	7200000	120	2	1	1	1	1	1	
+sentiment	amazon_polarity	amazon_polarity_convey_negative_or_positive_sentiment	3600000	55556	446240201	9000000	124	3	1	1	1	1	1	
+sentiment	amazon_polarity	amazon_polarity_flattering_or_not	3600000	55556	482240201	14400000	134	4	1	1	1	1	1	
+sentiment	amazon_polarity	amazon_polarity_negative_or_positive_tone	3600000	55556	471440200	9000000	131	3	1	1	1	1	1	
+sentiment	amazon_polarity	amazon_polarity_user_satisfied	3600000	55556	507440200	14400000	141	4	1	1	1	1	1	
+sentiment	amazon_polarity	amazon_polarity_would_you_buy	3600000	55556	521840200	7200000	145	2	1	1	1	1	1	
+sentiment	app_reviews	app_reviews_categorize_rating_using_review	288065	125000	13480920	830472	47	3		1	1	1	1	
+sentiment	app_reviews	app_reviews_convert_to_rating	288065	125000	12904790	576130	45	2			1	1	1	
+sentiment	app_reviews	app_reviews_convert_to_star_rating	288065	125000	12616725	864195	44	3		1	1	1	1	
+sentiment	app_reviews	app_reviews_generate_review	288065	125000	9417031	5032897	33	17			1	1	1	
+sentiment	imdb	imdb_Movie_Expressed_Sentiment	25000		7743542	50000	310	2	1	1	1	1	1	
+sentiment	imdb	imdb_Movie_Expressed_Sentiment_2	25000		7818542	50000	313	2	1	1	1	1	1	
+sentiment	imdb	imdb_Negation_template_for_positive_and_negative	25000		7718542	100000	309	4		1	1	1	1	
+sentiment	imdb	imdb_Reviewer_Enjoyment	25000		7818542	150000	313	6	1	1	1	1	1	
+sentiment	imdb	imdb_Reviewer_Enjoyment_Yes_No	25000		7768542	50000	311	2	1	1	1	1	1	
+sentiment	imdb	imdb_Reviewer_Expressed_Sentiment	25000		7893542	50000	316	2	1	1	1	1	1	
+sentiment	imdb	imdb_Reviewer_Opinion_bad_good_choices	25000		7843542	50000	314	2	1	1	1	1	1	
+sentiment	imdb	imdb_Reviewer_Sentiment_Feeling	25000		7793542	50000	312	2	1	1	1	1	1	
+sentiment	imdb	imdb_Sentiment_with_choices_	25000		7768542	50000	311	2	1	1	1	1	1	
+sentiment	imdb	imdb_Text_Expressed_Sentiment	25000		7793542	50000	312	2	1	1	1	1	1	
+sentiment	imdb	imdb_Writer_Expressed_Sentiment	25000		7818542	50000	313	2	1	1	1	1	1	
+sentiment	rotten_tomatoes	rotten_tomatoes_Movie_Expressed_Sentiment	8530		329179	17060	39	2	1	1	1	1	1	
+sentiment	rotten_tomatoes	rotten_tomatoes_Movie_Expressed_Sentiment_2	8530		354769	17060	42	2	1	1	1	1	1	
+sentiment	rotten_tomatoes	rotten_tomatoes_Reviewer_Enjoyment	8530		354769	46915	42	6	1	1	1	1	1	
+sentiment	rotten_tomatoes	rotten_tomatoes_Reviewer_Enjoyment_Yes_No	8530		337709	17060	40	2	1	1	1	1	1	
+sentiment	rotten_tomatoes	rotten_tomatoes_Reviewer_Expressed_Sentiment	8530		380359	17060	45	2	1	1	1	1	1	
+sentiment	rotten_tomatoes	rotten_tomatoes_Reviewer_Opinion_bad_good_choices	8530		363299	17060	43	2	1	1	1	1	1	
+sentiment	rotten_tomatoes	rotten_tomatoes_Reviewer_Sentiment_Feeling	8530		346239	17060	41	2	1	1	1	1	1	
+sentiment	rotten_tomatoes	rotten_tomatoes_Sentiment_with_choices_	8530		337709	17060	40	2	1	1	1	1	1	
+sentiment	rotten_tomatoes	rotten_tomatoes_Text_Expressed_Sentiment	8530		346239	17060	41	2	1	1	1	1	1	
+sentiment	rotten_tomatoes	rotten_tomatoes_Writer_Expressed_Sentiment	8530		354769	17060	42	2	1	1	1	1	1	
+sentiment	yelp_review_full	yelp_review_full_based_on_that	650000	71429	124358321	1950000	191	3	1	1	1	1	1	
+sentiment	yelp_review_full	yelp_review_full_format_rating	650000	71429	121758322	1950000	187	3	1	1	1	1	1	
+sentiment	yelp_review_full	yelp_review_full_format_score	650000	71429	125658322	1300000	193	2	1	1	1	1	1	
+sentiment	yelp_review_full	yelp_review_full_format_star	650000	71429	121758322	1950000	187	3	1	1	1	1	1	
+sentiment	yelp_review_full	yelp_review_full_on_a_scale	650000	71429	127608321	1300000	196	2	1	1	1	1	1	
+sentiment	yelp_review_full	yelp_review_full_so_i_would	650000	71429	122408321	1950000	188	3	1	1	1	1	1	
+sentiment	yelp_review_full	yelp_review_full_this_place	650000	71429	121758321	1950000	187	3	1	1	1	1	1	
+sentence_completion	super_glue/copa	super_glue_copa_C1_or_C2_premise_so_because_	400		11333	3272	28	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa_C1_or_C2_premise_so_because__score_eval	800		22666	6565	28	8	1				1	1
+sentence_completion	super_glue/copa	super_glue_copa__As_a_result_C1_or_C2_	202		6621	1666	33	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa__As_a_result_C1_or_C2__score_eval	404		13242	3351	33	8	1				1	1
+sentence_completion	super_glue/copa	super_glue_copa__What_could_happen_next_C1_or_C2_	202		6621	1666	33	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa__What_could_happen_next_C1_or_C2__score_eval	404		13242	3351	33	8	1				1	1
+sentence_completion	super_glue/copa	super_glue_copa__which_may_be_caused_by	198		6312	1606	32	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa__which_may_be_caused_by_score_eval	396		12624	3214	32	8	1				1	1
+sentence_completion	super_glue/copa	super_glue_copa__why_C1_or_C2	198		5718	1606	29	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa__why_C1_or_C2_score_eval	396		11436	3214	29	8	1				1	1
+sentence_completion	super_glue/copa	super_glue_copa_best_option	400		16233	3272	41	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa_best_option_score_eval	800		32466	6565	41	8	1				1	1
+sentence_completion	super_glue/copa	super_glue_copa_cause_effect	400		13235	3272	33	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa_cause_effect_score_eval	800		26470	6565	33	8	1				1	1
+sentence_completion	super_glue/copa	super_glue_copa_choose	400		12835	3272	32	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa_choose_score_eval	800		25670	6565	32	8	1				1	1
+sentence_completion	super_glue/copa	super_glue_copa_exercise	400		14835	3272	37	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa_exercise_score_eval	800		29670	6565	37	8	1				1	1
+sentence_completion	super_glue/copa	super_glue_copa_i_am_hesitating	400		18435	3272	46	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa_i_am_hesitating_score_eval	800		36870	6565	46	8	1				1	1
+sentence_completion	super_glue/copa	super_glue_copa_more_likely	400		17033	3272	43	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa_more_likely_score_eval	800		34066	6565	43	8	1				1	1
+sentence_completion	super_glue/copa	super_glue_copa_plausible_alternatives	400		15837	3272	40	8	1	1			1	1
+sentence_completion	super_glue/copa	super_glue_copa_plausible_alternatives_score_eval	800		31674	6565	40	8	1				1	1
+sentence_completion	hellaswag	hellaswag_Appropriate_continuation_Yes_or_No	39905		4183743	79810	105	2		1		1	1	1
+sentence_completion	hellaswag	hellaswag_Open_ended_completion	39905		2341427	1371962	59	34		1		1	1	1
+sentence_completion	hellaswag	hellaswag_Open_ended_start	39905		1611392	2221712	40	56				1	1	1
+sentence_completion	hellaswag	hellaswag_Predict_ending_with_hint	39905		8690814	1371962	218	34	1	1		1	1	1
+sentence_completion	hellaswag	hellaswag_Predict_ending_with_hint_score_eval	159620		34763256	5452714	218	34	1			1	1	1
+sentence_completion	hellaswag	hellaswag_Randomized_prompts_template	39905		8403540	1371962	211	34	1	1		1	1	1
+sentence_completion	hellaswag	hellaswag_Randomized_prompts_template_score_eval	159620		33614160	5452714	211	34	1			1	1	1
+sentence_completion	hellaswag	hellaswag_Reversed_appropriate_continuation_Yes_or_No	39905		4379874	79810	110	2		1		1	1	1
+sentence_completion	hellaswag	hellaswag_Topic_of_the_context	39905		3873009	178383	97	4				1	1	1
+sentence_completion	hellaswag	hellaswag_Topic_without_the_ending_answer	39905		2501047	178383	63	4				1	1	1
+sentence_completion	hellaswag	hellaswag_complete_first_then	39905		8556231	1371962	214	34	1	1		1	1	1
+sentence_completion	hellaswag	hellaswag_complete_first_then_score_eval	159620		34224924	5452714	214	34	1			1	1	1
+sentence_completion	hellaswag	hellaswag_how_ends	39905		8407799	159620	211	4		1		1	1	1
+sentence_completion	hellaswag	hellaswag_if_begins_how_continues	39905		8886659	159620	223	4	1	1		1	1	1
+sentence_completion	hellaswag	hellaswag_if_begins_how_continues_score_eval	159620		35546636	638480	223	4	1			1	1	1
+structure-to-text	common_gen	common_gen_Example_prompt	67389	55556	2287821	955052	34	14	1		1	1	1	
+structure-to-text	common_gen	common_gen_Given_concepts_type_1	67389	55556	1613931	955052	24	14	1		1	1	1	
+structure-to-text	common_gen	common_gen_Given_concepts_type_2	67389	55556	1816098	955052	27	14	1		1	1	1	
+structure-to-text	common_gen	common_gen_Put_together	67389	55556	1142208	955052	17	14	1		1	1	1	
+structure-to-text	common_gen	common_gen_choice_in_concept_centric_sentence_generation	67389	55556	1758618	955052	26	14	1		1	1	1	
+structure-to-text	common_gen	common_gen_random_task_template_prompt	67389	55556	1097092	955052	16	14	1		1	1	1	
+structure-to-text	common_gen	common_gen_sentence_to_concepts	67389	55556	1697877	468318	25	7			1	1	1	
+structure-to-text	common_gen	common_gen_topic_to_sentence	67389	55556	751112	955052	11	14			1	1	1	
+structure-to-text	common_gen	common_gen_topics_from_the_sentence	67389	55556	1426775	468318	21	7			1	1	1	
+structure-to-text	wiki_bio	wiki_bio_comprehension	582639	100000	135460551	92645859	232	159			1	1	1	
+structure-to-text	wiki_bio	wiki_bio_guess_person	582639	100000	93566592	5661574	161	10			1	1	1	
+structure-to-text	wiki_bio	wiki_bio_key_content	582639	100000	108879327	92645859	187	159			1	1	1	
+structure-to-text	wiki_bio	wiki_bio_what_content	582639	100000	110044605	25998584	189	45			1	1	1	
+structure-to-text	wiki_bio	wiki_bio_who	582639	100000	109377899	96226084	188	165	1		1	1	1	
+summarization	cnn_dailymail/3.0.0	cnn_dailymail_3.0.0_2_or_3_sentences	287113	55556	144934542	21431893	505	75	1		1	1	1	
+summarization	cnn_dailymail/3.0.0	cnn_dailymail_3.0.0_generate_story	287113	55556	24015910	139192282	84	485			1	1	1	
+summarization	cnn_dailymail/3.0.0	cnn_dailymail_3.0.0_news_card_view	287113	55556	145795881	21431893	508	75	1		1	1	1	
+summarization	cnn_dailymail/3.0.0	cnn_dailymail_3.0.0_news_stock	287113	55556	143498977	21431893	500	75	1		1	1	1	
+summarization	cnn_dailymail/3.0.0	cnn_dailymail_3.0.0_news_summary	287113	55556	140914960	21431893	491	75	1		1	1	1	
+summarization	cnn_dailymail/3.0.0	cnn_dailymail_3.0.0_spice_up_story	287113	55556	26312814	139192282	92	485			1	1	1	
+summarization	cnn_dailymail/3.0.0	cnn_dailymail_3.0.0_sum_in_brief	287113	55556	140914960	21431893	491	75	1		1	1	1	
+summarization	cnn_dailymail/3.0.0	cnn_dailymail_3.0.0_tldr_summary	287113	55556	146944333	21431893	512	75	1		1	1	1	
+summarization	cnn_dailymail/3.0.0	cnn_dailymail_3.0.0_write_an_outline	287113	55556	143786090	21431893	501	75	1		1	1	1	
+summarization	gigaword	gigaword_TLDR	3803957	55556	210657980	56138750	55	15	1		1	1	1	
+summarization	gigaword	gigaword_first_sentence_title	3803957	55556	222069847	56138750	58	15	1		1	1	1	
+summarization	gigaword	gigaword_generate_summary_for_this	3803957	55556	237285679	56138750	62	15	1		1	1	1	
+summarization	gigaword	gigaword_in_a_nutshell	3803957	55556	218265894	56138750	57	15	1		1	1	1	
+summarization	gigaword	gigaword_make_a_title	3803957	55556	222069847	56138750	58	15	1		1	1	1	
+summarization	gigaword	gigaword_reverse_writing	3803957	55556	59942707	195442152	16	51			1	1	1	
+summarization	gigaword	gigaword_write_a_title_for_this_sentence	3803957	55556	229677761	56138750	60	15	1		1	1	1	
+summarization	gigaword	gigaword_write_an_article	3803957	55556	101786234	195442152	27	51			1	1	1	
+summarization	gigaword	gigaword_write_its_sentence	3803957	55556	237285679	56138750	62	15	1		1	1	1	
+summarization	multi_news	multi_news_distill	44972		49340615	14001110	1097	311	1		1	1	1	
+summarization	multi_news	multi_news_expand_reverse_task_	44972		14540774	17611532	323	392			1	1	1	
+summarization	multi_news	multi_news_summarize	44972		49205699	14001110	1094	311	1		1	1	1	
+summarization	multi_news	multi_news_summary_scenario	44972		49430559	14001110	1099	311	1		1	1	1	
+summarization	multi_news	multi_news_synthesize	44972		49295643	14001110	1096	311	1		1	1	1	
+summarization	multi_news	multi_news_what_are_the_key_points	44972		49250671	14001110	1095	311	1		1	1	1	
+summarization	samsum	samsum_Generate_a_summary_for_this_dialogue	14732		2301103	422716	156	29	1		1	1	1	
+summarization	samsum	samsum_Given_the_above_dialogue_write_a_summary	14732		2315835	422716	157	29	1		1	1	1	
+summarization	samsum	samsum_Sum_up_the_following_dialogue	14732		2256907	422716	153	29	1		1	1	1	
+summarization	samsum	samsum_Summarize_	14732		2227441	422718	151	29	1		1	1	1	
+summarization	samsum	samsum_Summarize_this_dialogue_	14732		2256907	422716	153	29	1		1	1	1	
+summarization	samsum	samsum_To_sum_up_this_dialog	14732		2256907	422716	153	29	1		1	1	1	
+summarization	samsum	samsum_Write_a_dialogue_that_match_this_summary	14732		540572	2183247	37	148			1	1	1	
+summarization	xsum	xsum_DOC_boils_down_to_simple_idea_that	204045	50000	74937565	6199646	367	30	1		1	1	1	
+summarization	xsum	xsum_DOC_given_above_write_one_sentence	204045	50000	75957790	6199646	372	30	1		1	1	1	
+summarization	xsum	xsum_DOC_how_would_you_rephrase_few_words	204045	50000	75753745	6199646	371	30	1		1	1	1	
+summarization	xsum	xsum_DOC_tldr	204045	50000	74121385	6199646	363	30	1		1	1	1	
+summarization	xsum	xsum_DOC_write_summary_of_above	204045	50000	75753745	6199646	371	30	1		1	1	1	
+summarization	xsum	xsum_article_DOC_summary	204045	50000	73917340	6199646	362	30	1		1	1	1	
+summarization	xsum	xsum_college_roommate_asked_DOC_so_I_recap	204045	50000	77998240	6199646	382	30	1		1	1	1	
+summarization	xsum	xsum_read_below_DOC_write_abstract	204045	50000	77386105	6199646	379	30	1		1	1	1	
+summarization	xsum	xsum_summarize_DOC	204045	50000	73917340	6199646	362	30	1		1	1	1	
+summarization	xsum	xsum_summarize_this_DOC_summary	204045	50000	74733520	6199646	366	30	1		1	1	1	
+topic_classification	ag_news	ag_news_classify	120000	71429	8015555	330000	67	3	1	1	1	1	1	
+topic_classification	ag_news	ag_news_classify_question_first	120000	71429	8015555	330000	67	3	1	1	1	1	1	
+topic_classification	ag_news	ag_news_classify_with_choices	120000	71429	9575555	330000	80	3	1	1	1	1	1	
+topic_classification	ag_news	ag_news_classify_with_choices_question_first	120000	71429	9575555	330000	80	3	1	1	1	1	1	
+topic_classification	ag_news	ag_news_recommend	120000	71429	9935555	390000	83	3	1	1	1	1	1	
+topic_classification	ag_news	ag_news_which_section	120000	71429	8615555	330000	72	3	1	1	1	1	1	
+topic_classification	ag_news	ag_news_which_section_choices	120000	71429	10415555	330000	87	3	1	1	1	1	1	
+topic_classification	dbpedia_14	dbpedia_14_given_a_choice_of_categories_	560000	125000	72206042	1480000	129	3	1	1	1	1	1	
+topic_classification	dbpedia_14	dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to	560000	125000	33127841	1480000	59	3	1	1	1	1	1	
+topic_classification	dbpedia_14	dbpedia_14_given_list_what_category_does_the_paragraph_belong_to	560000	125000	68089660	1480000	122	3	1	1	1	1	1	
+topic_classification	dbpedia_14	dbpedia_14_pick_one_category_for_the_following_text	560000	125000	71646039	1480000	128	3	1	1	1	1	1	
+topic_classification	trec	trec_fine_grained_ABBR	86		2582	500	30	6		1	1	1	1	
+topic_classification	trec	trec_fine_grained_ABBR_context_first	86		2582	500	30	6		1	1	1	1	
+topic_classification	trec	trec_fine_grained_DESC	1162		32914	2876	28	2		1	1	1	1	
+topic_classification	trec	trec_fine_grained_DESC_context_first	1162		32914	2876	28	2		1	1	1	1	
+topic_classification	trec	trec_fine_grained_ENTY	1250		96067	3033	77	2		1	1	1	1	
+topic_classification	trec	trec_fine_grained_HUM	1223		36227	2446	30	2		1	1	1	1	
+topic_classification	trec	trec_fine_grained_HUM_context_first	1223		36227	2446	30	2		1	1	1	1	
+topic_classification	trec	trec_fine_grained_LOC	835		25297	2134	30	3		1	1	1	1	
+topic_classification	trec	trec_fine_grained_LOC_context_first	835		25297	2134	30	3		1	1	1	1	
+topic_classification	trec	trec_fine_grained_NUM	896		43632	1994	49	2		1	1	1	1	
+topic_classification	trec	trec_fine_grained_NUM_context_first	896		43632	1994	49	2		1	1	1	1	
+topic_classification	trec	trec_fine_grained_open	5452		114566	13802	21	3	1	1	1	1	1	
+topic_classification	trec	trec_fine_grained_open_context_first	5452		114566	13802	21	3	1	1	1	1	1	
+topic_classification	trec	trec_pick_the_best_descriptor	5452		229058	13308	42	2	1	1	1	1	1	
+topic_classification	trec	trec_trec1	5452		196346	13308	36	2	1	1	1	1	1	
+topic_classification	trec	trec_trec2	5452		207250	13308	38	2	1	1	1	1	1	
+topic_classification	trec	trec_what_category_best_describe	5452		212702	13308	39	2	1	1	1	1	1	
+topic_classification	trec	trec_which_category_best_describes	5452		239962	13308	44	2	1	1	1	1	1	
+word_sense_disambiguation	super_glue/wic	super_glue_wic_GPT_3_prompt	5428		222068	10856	41	2	1	1			1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_GPT_3_prompt_score_eval	10856		444136	21712	41	2	1				1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_GPT_3_prompt_with_label	5428		243780	10856	45	2	1	1			1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_GPT_3_prompt_with_label_score_eval	10856		487560	21712	45	2	1				1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_affirmation_true_or_false	5428		270920	16284	50	3	1	1			1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_affirmation_true_or_false_score_eval	10856		541840	32568	50	3	1				1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_grammar_homework	5428		260064	10856	48	2	1	1			1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_grammar_homework_score_eval	10856		520128	21712	48	2	1				1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_polysemous	5428		303488	10856	56	2	1	1			1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_polysemous_score_eval	10856		606976	21712	56	2	1				1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_question_context	5428		222068	10856	41	2	1	1			1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_question_context_meaning	5428		189500	10856	35	2	1	1			1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_question_context_meaning_score_eval	10856		379000	21712	35	2	1				1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_question_context_meaning_with_label	5428		211212	10856	39	2	1	1			1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_question_context_meaning_with_label_score_eval	10856		422424	21712	39	2	1				1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_question_context_score_eval	10856		444136	21712	41	2	1				1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_same_sense	5428		276348	10856	51	2	1	1			1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_same_sense_score_eval	10856		552696	21712	51	2	1				1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_similar_sense	5428		132741	10856	24	2	1	1			1	1
+word_sense_disambiguation	super_glue/wic	super_glue_wic_similar_sense_score_eval	10856		265482	21712	24	2	1				1	1

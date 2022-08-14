@@ -1,0 +1,1828 @@
+{
+    "super_glue_wsc.fixed": {
+        "original_templates": [
+            "_GPT_3_Style",
+            "_GPT_3_Style_score_eval",
+            "_I_think_they_mean",
+            "_I_think_they_mean_score_eval",
+            "_Who_or_what_is_are",
+            "_Who_or_what_is_are_score_eval",
+            "_by_p_they_mean",
+            "_by_p_they_mean_score_eval",
+            "_does_p_stand_for",
+            "_does_p_stand_for_score_eval",
+            "_does_the_pronoun_refer_to",
+            "_does_the_pronoun_refer_to_score_eval",
+            "_in_other_words",
+            "_in_other_words_score_eval",
+            "_p_is_are_r",
+            "_p_is_are_r_score_eval",
+            "_replaced_with",
+            "_replaced_with_score_eval",
+            "_the_pronoun_refers_to",
+            "_the_pronoun_refers_to_score_eval"
+        ],
+        "original_dataset_name": [
+            "super_glue_wsc.fixed_GPT_3_Style",
+            "super_glue_wsc.fixed_GPT_3_Style_score_eval",
+            "super_glue_wsc.fixed_I_think_they_mean",
+            "super_glue_wsc.fixed_I_think_they_mean_score_eval",
+            "super_glue_wsc.fixed_Who_or_what_is_are",
+            "super_glue_wsc.fixed_Who_or_what_is_are_score_eval",
+            "super_glue_wsc.fixed_by_p_they_mean",
+            "super_glue_wsc.fixed_by_p_they_mean_score_eval",
+            "super_glue_wsc.fixed_does_p_stand_for",
+            "super_glue_wsc.fixed_does_p_stand_for_score_eval",
+            "super_glue_wsc.fixed_does_the_pronoun_refer_to",
+            "super_glue_wsc.fixed_does_the_pronoun_refer_to_score_eval",
+            "super_glue_wsc.fixed_in_other_words",
+            "super_glue_wsc.fixed_in_other_words_score_eval",
+            "super_glue_wsc.fixed_p_is_are_r",
+            "super_glue_wsc.fixed_p_is_are_r_score_eval",
+            "super_glue_wsc.fixed_replaced_with",
+            "super_glue_wsc.fixed_replaced_with_score_eval",
+            "super_glue_wsc.fixed_the_pronoun_refers_to",
+            "super_glue_wsc.fixed_the_pronoun_refers_to_score_eval"
+        ]
+    },
+    "winogrande_winogrande_xl": {
+        "original_templates": [
+            "_Replace",
+            "_Replace_score_eval",
+            "_does_underscore_refer_to",
+            "_does_underscore_refer_to_score_eval",
+            "_fill_in_the_blank",
+            "_fill_in_the_blank_score_eval",
+            "_stand_for",
+            "_stand_for_score_eval",
+            "_underscore_refer_to",
+            "_underscore_refer_to_score_eval"
+        ],
+        "original_dataset_name": [
+            "winogrande_winogrande_xl_Replace",
+            "winogrande_winogrande_xl_Replace_score_eval",
+            "winogrande_winogrande_xl_does_underscore_refer_to",
+            "winogrande_winogrande_xl_does_underscore_refer_to_score_eval",
+            "winogrande_winogrande_xl_fill_in_the_blank",
+            "winogrande_winogrande_xl_fill_in_the_blank_score_eval",
+            "winogrande_winogrande_xl_stand_for",
+            "winogrande_winogrande_xl_stand_for_score_eval",
+            "winogrande_winogrande_xl_underscore_refer_to",
+            "winogrande_winogrande_xl_underscore_refer_to_score_eval"
+        ]
+    },
+    "winogrande_winogrande_debiased": {
+        "original_templates": [
+            "_Replace",
+            "_Replace_score_eval",
+            "_does_underscore_refer_to",
+            "_does_underscore_refer_to_score_eval",
+            "_fill_in_the_blank",
+            "_fill_in_the_blank_score_eval",
+            "_stand_for",
+            "_stand_for_score_eval",
+            "_underscore_refer_to",
+            "_underscore_refer_to_score_eval"
+        ],
+        "original_dataset_name": [
+            "winogrande_winogrande_debiased_Replace",
+            "winogrande_winogrande_debiased_Replace_score_eval",
+            "winogrande_winogrande_debiased_does_underscore_refer_to",
+            "winogrande_winogrande_debiased_does_underscore_refer_to_score_eval",
+            "winogrande_winogrande_debiased_fill_in_the_blank",
+            "winogrande_winogrande_debiased_fill_in_the_blank_score_eval",
+            "winogrande_winogrande_debiased_stand_for",
+            "winogrande_winogrande_debiased_stand_for_score_eval",
+            "winogrande_winogrande_debiased_underscore_refer_to",
+            "winogrande_winogrande_debiased_underscore_refer_to_score_eval"
+        ]
+    },
+    "super_glue_cb": {
+        "original_templates": [
+            "_GPT_3_style",
+            "_GPT_3_style_score_eval",
+            "_MNLI_crowdsource",
+            "_MNLI_crowdsource_score_eval",
+            "_always_sometimes_never",
+            "_always_sometimes_never_score_eval",
+            "_based_on_the_previous_passage",
+            "_based_on_the_previous_passage_score_eval",
+            "_can_we_infer",
+            "_can_we_infer_score_eval",
+            "_claim_true_false_inconclusive",
+            "_claim_true_false_inconclusive_score_eval",
+            "_consider_always_sometimes_never",
+            "_consider_always_sometimes_never_score_eval",
+            "_does_it_follow_that",
+            "_does_it_follow_that_score_eval",
+            "_does_this_imply",
+            "_does_this_imply_score_eval",
+            "_guaranteed_possible_impossible",
+            "_guaranteed_possible_impossible_score_eval",
+            "_guaranteed_true",
+            "_guaranteed_true_score_eval",
+            "_justified_in_saying",
+            "_justified_in_saying_score_eval",
+            "_must_be_true",
+            "_must_be_true_score_eval",
+            "_should_assume",
+            "_should_assume_score_eval",
+            "_take_the_following_as_truth",
+            "_take_the_following_as_truth_score_eval"
+        ],
+        "original_dataset_name": [
+            "super_glue_cb_GPT_3_style",
+            "super_glue_cb_GPT_3_style_score_eval",
+            "super_glue_cb_MNLI_crowdsource",
+            "super_glue_cb_MNLI_crowdsource_score_eval",
+            "super_glue_cb_always_sometimes_never",
+            "super_glue_cb_always_sometimes_never_score_eval",
+            "super_glue_cb_based_on_the_previous_passage",
+            "super_glue_cb_based_on_the_previous_passage_score_eval",
+            "super_glue_cb_can_we_infer",
+            "super_glue_cb_can_we_infer_score_eval",
+            "super_glue_cb_claim_true_false_inconclusive",
+            "super_glue_cb_claim_true_false_inconclusive_score_eval",
+            "super_glue_cb_consider_always_sometimes_never",
+            "super_glue_cb_consider_always_sometimes_never_score_eval",
+            "super_glue_cb_does_it_follow_that",
+            "super_glue_cb_does_it_follow_that_score_eval",
+            "super_glue_cb_does_this_imply",
+            "super_glue_cb_does_this_imply_score_eval",
+            "super_glue_cb_guaranteed_possible_impossible",
+            "super_glue_cb_guaranteed_possible_impossible_score_eval",
+            "super_glue_cb_guaranteed_true",
+            "super_glue_cb_guaranteed_true_score_eval",
+            "super_glue_cb_justified_in_saying",
+            "super_glue_cb_justified_in_saying_score_eval",
+            "super_glue_cb_must_be_true",
+            "super_glue_cb_must_be_true_score_eval",
+            "super_glue_cb_should_assume",
+            "super_glue_cb_should_assume_score_eval",
+            "super_glue_cb_take_the_following_as_truth",
+            "super_glue_cb_take_the_following_as_truth_score_eval"
+        ]
+    },
+    "super_glue_rte": {
+        "original_templates": [
+            "_GPT_3_style",
+            "_GPT_3_style_score_eval",
+            "_MNLI_crowdsource",
+            "_MNLI_crowdsource_score_eval",
+            "_based_on_the_previous_passage",
+            "_based_on_the_previous_passage_score_eval",
+            "_can_we_infer",
+            "_can_we_infer_score_eval",
+            "_does_it_follow_that",
+            "_does_it_follow_that_score_eval",
+            "_does_this_imply",
+            "_does_this_imply_score_eval",
+            "_guaranteed_true",
+            "_guaranteed_true_score_eval",
+            "_justified_in_saying",
+            "_justified_in_saying_score_eval",
+            "_must_be_true",
+            "_must_be_true_score_eval",
+            "_should_assume",
+            "_should_assume_score_eval"
+        ],
+        "original_dataset_name": [
+            "super_glue_rte_GPT_3_style",
+            "super_glue_rte_GPT_3_style_score_eval",
+            "super_glue_rte_MNLI_crowdsource",
+            "super_glue_rte_MNLI_crowdsource_score_eval",
+            "super_glue_rte_based_on_the_previous_passage",
+            "super_glue_rte_based_on_the_previous_passage_score_eval",
+            "super_glue_rte_can_we_infer",
+            "super_glue_rte_can_we_infer_score_eval",
+            "super_glue_rte_does_it_follow_that",
+            "super_glue_rte_does_it_follow_that_score_eval",
+            "super_glue_rte_does_this_imply",
+            "super_glue_rte_does_this_imply_score_eval",
+            "super_glue_rte_guaranteed_true",
+            "super_glue_rte_guaranteed_true_score_eval",
+            "super_glue_rte_justified_in_saying",
+            "super_glue_rte_justified_in_saying_score_eval",
+            "super_glue_rte_must_be_true",
+            "super_glue_rte_must_be_true_score_eval",
+            "super_glue_rte_should_assume",
+            "super_glue_rte_should_assume_score_eval"
+        ]
+    },
+    "anli": {
+        "original_templates": [
+            "_GPT_3_style_r1",
+            "_GPT_3_style_r1_score_eval",
+            "_GPT_3_style_r2",
+            "_GPT_3_style_r2_score_eval",
+            "_GPT_3_style_r3",
+            "_GPT_3_style_r3_score_eval",
+            "_MNLI_crowdsource_r1",
+            "_MNLI_crowdsource_r1_score_eval",
+            "_MNLI_crowdsource_r2",
+            "_MNLI_crowdsource_r2_score_eval",
+            "_MNLI_crowdsource_r3",
+            "_MNLI_crowdsource_r3_score_eval",
+            "_always_sometimes_never_r1",
+            "_always_sometimes_never_r1_score_eval",
+            "_always_sometimes_never_r2",
+            "_always_sometimes_never_r2_score_eval",
+            "_always_sometimes_never_r3",
+            "_always_sometimes_never_r3_score_eval",
+            "_based_on_the_previous_passage_r1",
+            "_based_on_the_previous_passage_r1_score_eval",
+            "_based_on_the_previous_passage_r2",
+            "_based_on_the_previous_passage_r2_score_eval",
+            "_based_on_the_previous_passage_r3",
+            "_based_on_the_previous_passage_r3_score_eval",
+            "_can_we_infer_r1",
+            "_can_we_infer_r1_score_eval",
+            "_can_we_infer_r2",
+            "_can_we_infer_r2_score_eval",
+            "_can_we_infer_r3",
+            "_can_we_infer_r3_score_eval",
+            "_claim_true_false_inconclusive_r1",
+            "_claim_true_false_inconclusive_r1_score_eval",
+            "_claim_true_false_inconclusive_r2",
+            "_claim_true_false_inconclusive_r2_score_eval",
+            "_claim_true_false_inconclusive_r3",
+            "_claim_true_false_inconclusive_r3_score_eval",
+            "_consider_always_sometimes_never_r1",
+            "_consider_always_sometimes_never_r1_score_eval",
+            "_consider_always_sometimes_never_r2",
+            "_consider_always_sometimes_never_r2_score_eval",
+            "_consider_always_sometimes_never_r3",
+            "_consider_always_sometimes_never_r3_score_eval",
+            "_does_it_follow_that_r1",
+            "_does_it_follow_that_r1_score_eval",
+            "_does_it_follow_that_r2",
+            "_does_it_follow_that_r2_score_eval",
+            "_does_it_follow_that_r3",
+            "_does_it_follow_that_r3_score_eval",
+            "_does_this_imply_r1",
+            "_does_this_imply_r1_score_eval",
+            "_does_this_imply_r2",
+            "_does_this_imply_r2_score_eval",
+            "_does_this_imply_r3",
+            "_does_this_imply_r3_score_eval",
+            "_guaranteed_possible_impossible_r1",
+            "_guaranteed_possible_impossible_r1_score_eval",
+            "_guaranteed_possible_impossible_r2",
+            "_guaranteed_possible_impossible_r2_score_eval",
+            "_guaranteed_possible_impossible_r3",
+            "_guaranteed_possible_impossible_r3_score_eval",
+            "_guaranteed_true_r1",
+            "_guaranteed_true_r1_score_eval",
+            "_guaranteed_true_r2",
+            "_guaranteed_true_r2_score_eval",
+            "_guaranteed_true_r3",
+            "_guaranteed_true_r3_score_eval",
+            "_justified_in_saying_r1",
+            "_justified_in_saying_r1_score_eval",
+            "_justified_in_saying_r2",
+            "_justified_in_saying_r2_score_eval",
+            "_justified_in_saying_r3",
+            "_justified_in_saying_r3_score_eval",
+            "_must_be_true_r1",
+            "_must_be_true_r1_score_eval",
+            "_must_be_true_r2",
+            "_must_be_true_r2_score_eval",
+            "_must_be_true_r3",
+            "_must_be_true_r3_score_eval",
+            "_should_assume_r1",
+            "_should_assume_r1_score_eval",
+            "_should_assume_r2",
+            "_should_assume_r2_score_eval",
+            "_should_assume_r3",
+            "_should_assume_r3_score_eval",
+            "_take_the_following_as_truth_r1",
+            "_take_the_following_as_truth_r1_score_eval",
+            "_take_the_following_as_truth_r2",
+            "_take_the_following_as_truth_r2_score_eval",
+            "_take_the_following_as_truth_r3",
+            "_take_the_following_as_truth_r3_score_eval"
+        ],
+        "original_dataset_name": [
+            "anli_GPT_3_style_r1",
+            "anli_GPT_3_style_r1_score_eval",
+            "anli_GPT_3_style_r2",
+            "anli_GPT_3_style_r2_score_eval",
+            "anli_GPT_3_style_r3",
+            "anli_GPT_3_style_r3_score_eval",
+            "anli_MNLI_crowdsource_r1",
+            "anli_MNLI_crowdsource_r1_score_eval",
+            "anli_MNLI_crowdsource_r2",
+            "anli_MNLI_crowdsource_r2_score_eval",
+            "anli_MNLI_crowdsource_r3",
+            "anli_MNLI_crowdsource_r3_score_eval",
+            "anli_always_sometimes_never_r1",
+            "anli_always_sometimes_never_r1_score_eval",
+            "anli_always_sometimes_never_r2",
+            "anli_always_sometimes_never_r2_score_eval",
+            "anli_always_sometimes_never_r3",
+            "anli_always_sometimes_never_r3_score_eval",
+            "anli_based_on_the_previous_passage_r1",
+            "anli_based_on_the_previous_passage_r1_score_eval",
+            "anli_based_on_the_previous_passage_r2",
+            "anli_based_on_the_previous_passage_r2_score_eval",
+            "anli_based_on_the_previous_passage_r3",
+            "anli_based_on_the_previous_passage_r3_score_eval",
+            "anli_can_we_infer_r1",
+            "anli_can_we_infer_r1_score_eval",
+            "anli_can_we_infer_r2",
+            "anli_can_we_infer_r2_score_eval",
+            "anli_can_we_infer_r3",
+            "anli_can_we_infer_r3_score_eval",
+            "anli_claim_true_false_inconclusive_r1",
+            "anli_claim_true_false_inconclusive_r1_score_eval",
+            "anli_claim_true_false_inconclusive_r2",
+            "anli_claim_true_false_inconclusive_r2_score_eval",
+            "anli_claim_true_false_inconclusive_r3",
+            "anli_claim_true_false_inconclusive_r3_score_eval",
+            "anli_consider_always_sometimes_never_r1",
+            "anli_consider_always_sometimes_never_r1_score_eval",
+            "anli_consider_always_sometimes_never_r2",
+            "anli_consider_always_sometimes_never_r2_score_eval",
+            "anli_consider_always_sometimes_never_r3",
+            "anli_consider_always_sometimes_never_r3_score_eval",
+            "anli_does_it_follow_that_r1",
+            "anli_does_it_follow_that_r1_score_eval",
+            "anli_does_it_follow_that_r2",
+            "anli_does_it_follow_that_r2_score_eval",
+            "anli_does_it_follow_that_r3",
+            "anli_does_it_follow_that_r3_score_eval",
+            "anli_does_this_imply_r1",
+            "anli_does_this_imply_r1_score_eval",
+            "anli_does_this_imply_r2",
+            "anli_does_this_imply_r2_score_eval",
+            "anli_does_this_imply_r3",
+            "anli_does_this_imply_r3_score_eval",
+            "anli_guaranteed_possible_impossible_r1",
+            "anli_guaranteed_possible_impossible_r1_score_eval",
+            "anli_guaranteed_possible_impossible_r2",
+            "anli_guaranteed_possible_impossible_r2_score_eval",
+            "anli_guaranteed_possible_impossible_r3",
+            "anli_guaranteed_possible_impossible_r3_score_eval",
+            "anli_guaranteed_true_r1",
+            "anli_guaranteed_true_r1_score_eval",
+            "anli_guaranteed_true_r2",
+            "anli_guaranteed_true_r2_score_eval",
+            "anli_guaranteed_true_r3",
+            "anli_guaranteed_true_r3_score_eval",
+            "anli_justified_in_saying_r1",
+            "anli_justified_in_saying_r1_score_eval",
+            "anli_justified_in_saying_r2",
+            "anli_justified_in_saying_r2_score_eval",
+            "anli_justified_in_saying_r3",
+            "anli_justified_in_saying_r3_score_eval",
+            "anli_must_be_true_r1",
+            "anli_must_be_true_r1_score_eval",
+            "anli_must_be_true_r2",
+            "anli_must_be_true_r2_score_eval",
+            "anli_must_be_true_r3",
+            "anli_must_be_true_r3_score_eval",
+            "anli_should_assume_r1",
+            "anli_should_assume_r1_score_eval",
+            "anli_should_assume_r2",
+            "anli_should_assume_r2_score_eval",
+            "anli_should_assume_r3",
+            "anli_should_assume_r3_score_eval",
+            "anli_take_the_following_as_truth_r1",
+            "anli_take_the_following_as_truth_r1_score_eval",
+            "anli_take_the_following_as_truth_r2",
+            "anli_take_the_following_as_truth_r2_score_eval",
+            "anli_take_the_following_as_truth_r3",
+            "anli_take_the_following_as_truth_r3_score_eval"
+        ]
+    },
+    "glue_mrpc": {
+        "original_templates": [
+            "_equivalent",
+            "_paraphrase",
+            "_replace",
+            "_same_thing",
+            "_want_to_know"
+        ],
+        "original_dataset_name": [
+            "glue_mrpc_equivalent",
+            "glue_mrpc_paraphrase",
+            "glue_mrpc_replace",
+            "glue_mrpc_same_thing",
+            "glue_mrpc_want_to_know"
+        ],
+        "omit_templates": [
+            "_generate_paraphrase",
+            "_generate_sentence"
+        ],
+        "omit_dataset_name": [
+            "glue_mrpc_generate_paraphrase",
+            "glue_mrpc_generate_sentence"
+        ]
+    },
+    "glue_qqp": {
+        "omit_templates": [
+            "_answer"
+        ],
+        "omit_dataset_name": [
+            "glue_qqp_answer"
+        ],
+        "original_templates": [
+            "_duplicate",
+            "_duplicate_or_not",
+            "_meaning",
+            "_quora",
+            "_same_thing"
+        ],
+        "original_dataset_name": [
+            "glue_qqp_duplicate",
+            "glue_qqp_duplicate_or_not",
+            "glue_qqp_meaning",
+            "glue_qqp_quora",
+            "glue_qqp_same_thing"
+        ]
+    },
+    "paws_labeled_final": {
+        "original_templates": [
+            "_Concatenation",
+            "_Concatenation_no_label",
+            "_Meaning",
+            "_Meaning_no_label",
+            "_PAWS_ANLI_GPT3",
+            "_PAWS_ANLI_GPT3_no_label",
+            "_Rewrite",
+            "_Rewrite_no_label",
+            "_context_question",
+            "_context_question_no_label",
+            "_task_description_no_label"
+        ],
+        "original_dataset_name": [
+            "paws_labeled_final_Concatenation",
+            "paws_labeled_final_Concatenation_no_label",
+            "paws_labeled_final_Meaning",
+            "paws_labeled_final_Meaning_no_label",
+            "paws_labeled_final_PAWS_ANLI_GPT3",
+            "paws_labeled_final_PAWS_ANLI_GPT3_no_label",
+            "paws_labeled_final_Rewrite",
+            "paws_labeled_final_Rewrite_no_label",
+            "paws_labeled_final_context_question",
+            "paws_labeled_final_context_question_no_label",
+            "paws_labeled_final_task_description_no_label"
+        ],
+        "omit_templates": [
+            "_paraphrase_task"
+        ],
+        "omit_dataset_name": [
+            "paws_labeled_final_paraphrase_task"
+        ]
+    },
+    "ai2_arc_ARC-Challenge": {
+        "original_templates": [
+            "ai2_arc_ARC_Challenge_heres_a_problem",
+            "ai2_arc_ARC_Challenge_i_am_hesitating",
+            "ai2_arc_ARC_Challenge_multiple_choice",
+            "ai2_arc_ARC_Challenge_pick_the_most_correct_option",
+            "ai2_arc_ARC_Challenge_qa_options"
+        ],
+        "original_dataset_name": [
+            "ai2_arc_ARC_Challenge_heres_a_problem",
+            "ai2_arc_ARC_Challenge_i_am_hesitating",
+            "ai2_arc_ARC_Challenge_multiple_choice",
+            "ai2_arc_ARC_Challenge_pick_the_most_correct_option",
+            "ai2_arc_ARC_Challenge_qa_options"
+        ],
+        "omit_templates": [
+            "ai2_arc_ARC_Challenge_pick_false_options"
+        ],
+        "omit_dataset_name": [
+            "ai2_arc_ARC_Challenge_pick_false_options"
+        ]
+    },
+    "ai2_arc_ARC-Easy": {
+        "original_templates": [
+            "ai2_arc_ARC_Easy_heres_a_problem",
+            "ai2_arc_ARC_Easy_i_am_hesitating",
+            "ai2_arc_ARC_Easy_multiple_choice",
+            "ai2_arc_ARC_Easy_pick_the_most_correct_option",
+            "ai2_arc_ARC_Easy_qa_options"
+        ],
+        "original_dataset_name": [
+            "ai2_arc_ARC_Easy_heres_a_problem",
+            "ai2_arc_ARC_Easy_i_am_hesitating",
+            "ai2_arc_ARC_Easy_multiple_choice",
+            "ai2_arc_ARC_Easy_pick_the_most_correct_option",
+            "ai2_arc_ARC_Easy_qa_options"
+        ],
+        "omit_templates": [
+            "ai2_arc_ARC_Easy_pick_false_options"
+        ],
+        "omit_dataset_name": [
+            "ai2_arc_ARC_Easy_pick_false_options"
+        ]
+    },
+    "kilt_tasks_hotpotqa": {
+        "omit_templates": [
+            "_combining_facts",
+            "_complex_question",
+            "_final_exam",
+            "_formulate",
+            "_straighforward_qa"
+        ],
+        "omit_dataset_name": [
+            "kilt_tasks_hotpotqa_combining_facts",
+            "kilt_tasks_hotpotqa_complex_question",
+            "kilt_tasks_hotpotqa_final_exam",
+            "kilt_tasks_hotpotqa_formulate",
+            "kilt_tasks_hotpotqa_straighforward_qa"
+        ]
+    },
+    "trivia_qa_unfiltered": {
+        "original_templates": [
+            "_first_person_context",
+            "_formal_description",
+            "_question_answer",
+            "_question_with_instruction"
+        ],
+        "original_dataset_name": [
+            "trivia_qa_unfiltered_first_person_context",
+            "trivia_qa_unfiltered_formal_description",
+            "trivia_qa_unfiltered_question_answer",
+            "trivia_qa_unfiltered_question_with_instruction"
+        ],
+        "omit_templates": [
+            "_guess_question"
+        ],
+        "omit_dataset_name": [
+            "trivia_qa_unfiltered_guess_question"
+        ]
+    },
+    "web_questions": {
+        "original_templates": [
+            "_get_the_answer",
+            "_potential_correct_answer",
+            "_question_answer",
+            "_short_general_knowledge_q",
+            "_whats_the_answer"
+        ],
+        "original_dataset_name": [
+            "web_questions_get_the_answer",
+            "web_questions_potential_correct_answer",
+            "web_questions_question_answer",
+            "web_questions_short_general_knowledge_q",
+            "web_questions_whats_the_answer"
+        ]
+    },
+    "wiki_qa": {
+        "original_templates": [
+            "_Decide_good_answer",
+            "_Direct_Answer_to_Question",
+            "_Is_This_True_",
+            "_automatic_system",
+            "_exercise",
+            "_found_on_google"
+        ],
+        "original_dataset_name": [
+            "wiki_qa_Decide_good_answer",
+            "wiki_qa_Direct_Answer_to_Question",
+            "wiki_qa_Is_This_True_",
+            "wiki_qa_automatic_system",
+            "wiki_qa_exercise",
+            "wiki_qa_found_on_google"
+        ],
+        "omit_templates": [
+            "_Generate_Question_from_Topic",
+            "_Jeopardy_style",
+            "_Topic_Prediction_Answer_Only",
+            "_Topic_Prediction_Question_Only",
+            "_Topic_Prediction_Question_and_Answer_Pair"
+        ],
+        "omit_dataset_name": [
+            "wiki_qa_Generate_Question_from_Topic",
+            "wiki_qa_Jeopardy_style",
+            "wiki_qa_Topic_Prediction_Answer_Only",
+            "wiki_qa_Topic_Prediction_Question_Only",
+            "wiki_qa_Topic_Prediction_Question_and_Answer_Pair"
+        ]
+    },
+    "adversarial_qa_dbidaf": {
+        "original_templates": [
+            "_answer_the_following_q",
+            "_based_on",
+            "_question_context_answer",
+            "_tell_what_it_is"
+        ],
+        "original_dataset_name": [
+            "adversarial_qa_dbidaf_answer_the_following_q",
+            "adversarial_qa_dbidaf_based_on",
+            "adversarial_qa_dbidaf_question_context_answer",
+            "adversarial_qa_dbidaf_tell_what_it_is"
+        ],
+        "omit_templates": [
+            "_generate_question"
+        ],
+        "omit_dataset_name": [
+            "adversarial_qa_dbidaf_generate_question"
+        ]
+    },
+    "adversarial_qa_dbert": {
+        "original_templates": [
+            "_answer_the_following_q",
+            "_based_on",
+            "_question_context_answer",
+            "_tell_what_it_is"
+        ],
+        "original_dataset_name": [
+            "adversarial_qa_dbert_answer_the_following_q",
+            "adversarial_qa_dbert_based_on",
+            "adversarial_qa_dbert_question_context_answer",
+            "adversarial_qa_dbert_tell_what_it_is"
+        ],
+        "omit_templates": [
+            "_generate_question"
+        ],
+        "omit_dataset_name": [
+            "adversarial_qa_dbert_generate_question"
+        ]
+    },
+    "adversarial_qa_droberta": {
+        "original_templates": [
+            "_answer_the_following_q",
+            "_based_on",
+            "_question_context_answer",
+            "_tell_what_it_is"
+        ],
+        "original_dataset_name": [
+            "adversarial_qa_droberta_answer_the_following_q",
+            "adversarial_qa_droberta_based_on",
+            "adversarial_qa_droberta_question_context_answer",
+            "adversarial_qa_droberta_tell_what_it_is"
+        ],
+        "omit_templates": [
+            "_generate_question"
+        ],
+        "omit_dataset_name": [
+            "adversarial_qa_droberta_generate_question"
+        ]
+    },
+    "duorc_SelfRC": {
+        "original_templates": [
+            "_answer_question",
+            "_decide_worth_it",
+            "_extract_answer",
+            "_movie_director",
+            "_question_answering"
+        ],
+        "original_dataset_name": [
+            "duorc_SelfRC_answer_question",
+            "duorc_SelfRC_decide_worth_it",
+            "duorc_SelfRC_extract_answer",
+            "duorc_SelfRC_movie_director",
+            "duorc_SelfRC_question_answering"
+        ],
+        "omit_templates": [
+            "_build_story_around_qa",
+            "_generate_question",
+            "_generate_question_by_answer",
+            "_title_generation"
+        ],
+        "omit_dataset_name": [
+            "duorc_SelfRC_build_story_around_qa",
+            "duorc_SelfRC_generate_question",
+            "duorc_SelfRC_generate_question_by_answer",
+            "duorc_SelfRC_title_generation"
+        ]
+    },
+    "duorc_ParaphraseRC": {
+        "original_templates": [
+            "_answer_question",
+            "_decide_worth_it",
+            "_extract_answer",
+            "_movie_director",
+            "_question_answering"
+        ],
+        "original_dataset_name": [
+            "duorc_ParaphraseRC_answer_question",
+            "duorc_ParaphraseRC_decide_worth_it",
+            "duorc_ParaphraseRC_extract_answer",
+            "duorc_ParaphraseRC_movie_director",
+            "duorc_ParaphraseRC_question_answering"
+        ],
+        "omit_templates": [
+            "_build_story_around_qa",
+            "_generate_question",
+            "_generate_question_by_answer",
+            "_title_generation"
+        ],
+        "omit_dataset_name": [
+            "duorc_ParaphraseRC_build_story_around_qa",
+            "duorc_ParaphraseRC_generate_question",
+            "duorc_ParaphraseRC_generate_question_by_answer",
+            "duorc_ParaphraseRC_title_generation"
+        ]
+    },
+    "ropes": {
+        "original_templates": [
+            "_background_new_situation_answer",
+            "_background_situation_middle",
+            "_given_background_situation",
+            "_new_situation_background_answer",
+            "_plain_background_situation",
+            "_plain_bottom_hint",
+            "_prompt_beginning",
+            "_prompt_bottom_hint_beginning",
+            "_prompt_mix",
+            "_read_background_situation"
+        ],
+        "original_dataset_name": [
+            "ropes_background_new_situation_answer",
+            "ropes_background_situation_middle",
+            "ropes_given_background_situation",
+            "ropes_new_situation_background_answer",
+            "ropes_plain_background_situation",
+            "ropes_plain_bottom_hint",
+            "ropes_prompt_beginning",
+            "ropes_prompt_bottom_hint_beginning",
+            "ropes_prompt_mix",
+            "ropes_read_background_situation"
+        ],
+        "omit_templates": [
+            "_plain_no_background",
+            "_prompt_bottom_no_hint"
+        ],
+        "omit_dataset_name": [
+            "ropes_plain_no_background",
+            "ropes_prompt_bottom_no_hint"
+        ]
+    },
+    "squad_v2": {
+        "omit_templates": [
+            "_Jeopardy_with_Context",
+            "_Jeopardy_without_Context",
+            "_Topic_Prediction_Context",
+            "_Topic_Prediction_Context_with_randomized_prompt_options",
+            "_Topic_Prediction_Context_with_randomized_prompt_options_placed_in_the_end",
+            "_Topic_Prediction_Question_and_Answer_Pair",
+            "_Trivia",
+            "_Unanwerable_question"
+        ],
+        "omit_dataset_name": [
+            "squad_v2_Jeopardy_with_Context",
+            "squad_v2_Jeopardy_without_Context",
+            "squad_v2_Topic_Prediction_Context",
+            "squad_v2_Topic_Prediction_Context_with_randomized_prompt_options",
+            "squad_v2_Topic_Prediction_Context_with_randomized_prompt_options_placed_in_the_end",
+            "squad_v2_Topic_Prediction_Question_and_Answer_Pair",
+            "squad_v2_Trivia",
+            "squad_v2_Unanwerable_question"
+        ],
+        "original_templates": [
+            "_Questions_with_Context",
+            "_Questions_with_Context_Without_Prompt_Keywords",
+            "_Questions_with_Context_Without_Prompt_Keywords_unanswerable",
+            "_Questions_with_Context_unanswerable"
+        ],
+        "original_dataset_name": [
+            "squad_v2_Questions_with_Context",
+            "squad_v2_Questions_with_Context_Without_Prompt_Keywords",
+            "squad_v2_Questions_with_Context_Without_Prompt_Keywords_unanswerable",
+            "squad_v2_Questions_with_Context_unanswerable"
+        ]
+    },
+    "super_glue_record": {
+        "original_templates": [
+            "_Add_sentence_after_after_continuation_choices_",
+            "_Add_sentence_after_continuation_choices_",
+            "_Can_you_figure_out_",
+            "_GPT_3_style_continuation_choices_",
+            "_GPT_3_style_summary_only_continuation_choices_",
+            "_GPT_3_style_without_hyphens_continuation_choices_",
+            "_In_the_question_above_the_placeholder_stands_for",
+            "_New_highlight_continuation_choices_",
+            "_News_article_continuation_choices_",
+            "_Summary_first_continuation_choices_",
+            "_What_could_the_placeholder_be_",
+            "_Which_one_is_the_placeholder_",
+            "_choose_between",
+            "_corrupted",
+            "_exercise",
+            "_pick_one_option",
+            "_the_placeholder_refers_to_",
+            "_trying_to_decide"
+        ],
+        "original_dataset_name": [
+            "super_glue_record_Add_sentence_after_after_continuation_choices_",
+            "super_glue_record_Add_sentence_after_continuation_choices_",
+            "super_glue_record_Can_you_figure_out_",
+            "super_glue_record_GPT_3_style_continuation_choices_",
+            "super_glue_record_GPT_3_style_summary_only_continuation_choices_",
+            "super_glue_record_GPT_3_style_without_hyphens_continuation_choices_",
+            "super_glue_record_In_the_question_above_the_placeholder_stands_for",
+            "super_glue_record_New_highlight_continuation_choices_",
+            "super_glue_record_News_article_continuation_choices_",
+            "super_glue_record_Summary_first_continuation_choices_",
+            "super_glue_record_What_could_the_placeholder_be_",
+            "super_glue_record_Which_one_is_the_placeholder_",
+            "super_glue_record_choose_between",
+            "super_glue_record_corrupted",
+            "super_glue_record_exercise",
+            "super_glue_record_pick_one_option",
+            "super_glue_record_the_placeholder_refers_to_",
+            "super_glue_record_trying_to_decide"
+        ],
+        "omit_templates": [
+            "_GPT_3_style_with_labels_continuation_choices_",
+            "_GPT_3_style_with_labels_without_hyphens_continuation_choices_"
+        ],
+        "omit_dataset_name": [
+            "super_glue_record_GPT_3_style_with_labels_continuation_choices_",
+            "super_glue_record_GPT_3_style_with_labels_without_hyphens_continuation_choices_"
+        ]
+    },
+    "quoref": {
+        "original_templates": [
+            "_Answer_Friend_Question",
+            "_Answer_Question_Given_Context",
+            "_Answer_Test",
+            "_Context_Contains_Answer",
+            "_Find_Answer",
+            "_Found_Context_Online",
+            "_Given_Context_Answer_Question",
+            "_Guess_Answer",
+            "_Read_And_Extract_",
+            "_What_Is_The_Answer"
+        ],
+        "original_dataset_name": [
+            "quoref_Answer_Friend_Question",
+            "quoref_Answer_Question_Given_Context",
+            "quoref_Answer_Test",
+            "quoref_Context_Contains_Answer",
+            "quoref_Find_Answer",
+            "quoref_Found_Context_Online",
+            "quoref_Given_Context_Answer_Question",
+            "quoref_Guess_Answer",
+            "quoref_Read_And_Extract_",
+            "quoref_What_Is_The_Answer"
+        ],
+        "omit_templates": [
+            "_Guess_Title_For_Context"
+        ],
+        "omit_dataset_name": [
+            "quoref_Guess_Title_For_Context"
+        ]
+    },
+    "cos_e_v1.11": {
+        "omit_templates": [
+            "_aligned_with_common_sense",
+            "_explain_why_human",
+            "_generate_explanation_given_text",
+            "_i_think",
+            "_rationale"
+        ],
+        "omit_dataset_name": [
+            "cos_e_v1.11_aligned_with_common_sense",
+            "cos_e_v1.11_explain_why_human",
+            "cos_e_v1.11_generate_explanation_given_text",
+            "cos_e_v1.11_i_think",
+            "cos_e_v1.11_rationale"
+        ],
+        "original_templates": [
+            "_description_question_option_id",
+            "_description_question_option_text",
+            "_question_description_option_id",
+            "_question_description_option_text",
+            "_question_option_description_id",
+            "_question_option_description_text"
+        ],
+        "original_dataset_name": [
+            "cos_e_v1.11_description_question_option_id",
+            "cos_e_v1.11_description_question_option_text",
+            "cos_e_v1.11_question_description_option_id",
+            "cos_e_v1.11_question_description_option_text",
+            "cos_e_v1.11_question_option_description_id",
+            "cos_e_v1.11_question_option_description_text"
+        ]
+    },
+    "cosmos_qa": {
+        "omit_templates": [
+            "_context_answer_to_question",
+            "_context_question_description_text",
+            "_only_question_answer"
+        ],
+        "omit_dataset_name": [
+            "cosmos_qa_context_answer_to_question",
+            "cosmos_qa_context_question_description_text",
+            "cosmos_qa_only_question_answer"
+        ],
+        "original_templates": [
+            "_context_description_question_answer_id",
+            "_context_description_question_answer_text",
+            "_context_description_question_text",
+            "_context_question_description_answer_id",
+            "_context_question_description_answer_text",
+            "_description_context_question_answer_id",
+            "_description_context_question_answer_text",
+            "_description_context_question_text",
+            "_no_prompt_id",
+            "_no_prompt_text"
+        ],
+        "original_dataset_name": [
+            "cosmos_qa_context_description_question_answer_id",
+            "cosmos_qa_context_description_question_answer_text",
+            "cosmos_qa_context_description_question_text",
+            "cosmos_qa_context_question_description_answer_id",
+            "cosmos_qa_context_question_description_answer_text",
+            "cosmos_qa_description_context_question_answer_id",
+            "cosmos_qa_description_context_question_answer_text",
+            "cosmos_qa_description_context_question_text",
+            "cosmos_qa_no_prompt_id",
+            "cosmos_qa_no_prompt_text"
+        ]
+    },
+    "dream": {
+        "omit_templates": [
+            "_answer_to_dialogue",
+            "_generate_first_utterance",
+            "_generate_last_utterance"
+        ],
+        "omit_dataset_name": [
+            "dream_answer_to_dialogue",
+            "dream_generate_first_utterance",
+            "dream_generate_last_utterance"
+        ],
+        "original_templates": [
+            "_baseline",
+            "_read_the_following_conversation_and_answer_the_question"
+        ],
+        "original_dataset_name": [
+            "dream_baseline",
+            "dream_read_the_following_conversation_and_answer_the_question"
+        ]
+    },
+    "openbookqa_main": {
+        "original_templates": [
+            "_choices",
+            "_choose_an_answer_with_options",
+            "_only_options",
+            "_pick_answer_with_options",
+            "_pick_using_id",
+            "_which_correct",
+            "_which_correct_inverse"
+        ],
+        "original_dataset_name": [
+            "openbookqa_main_choices",
+            "openbookqa_main_choose_an_answer_with_options",
+            "openbookqa_main_only_options",
+            "openbookqa_main_pick_answer_with_options",
+            "openbookqa_main_pick_using_id",
+            "openbookqa_main_which_correct",
+            "openbookqa_main_which_correct_inverse"
+        ]
+    },
+    "qasc": {
+        "omit_templates": [
+            "_is_correct_1",
+            "_is_correct_2",
+            "_qa_with_combined_facts_1"
+        ],
+        "omit_dataset_name": [
+            "qasc_is_correct_1",
+            "qasc_is_correct_2",
+            "qasc_qa_with_combined_facts_1"
+        ],
+        "original_templates": [
+            "_qa_with_separated_facts_1",
+            "_qa_with_separated_facts_2",
+            "_qa_with_separated_facts_3",
+            "_qa_with_separated_facts_4",
+            "_qa_with_separated_facts_5"
+        ],
+        "original_dataset_name": [
+            "qasc_qa_with_separated_facts_1",
+            "qasc_qa_with_separated_facts_2",
+            "qasc_qa_with_separated_facts_3",
+            "qasc_qa_with_separated_facts_4",
+            "qasc_qa_with_separated_facts_5"
+        ]
+    },
+    "quail": {
+        "original_templates": [
+            "_context_description_question_answer_id",
+            "_context_description_question_answer_text",
+            "_context_question_answer_description_id",
+            "_context_question_answer_description_text",
+            "_context_question_description_answer_id",
+            "_context_question_description_answer_text",
+            "_description_context_question_answer_id",
+            "_description_context_question_answer_text",
+            "_no_prompt_id",
+            "_no_prompt_text"
+        ],
+        "original_dataset_name": [
+            "quail_context_description_question_answer_id",
+            "quail_context_description_question_answer_text",
+            "quail_context_question_answer_description_id",
+            "quail_context_question_answer_description_text",
+            "quail_context_question_description_answer_id",
+            "quail_context_question_description_answer_text",
+            "quail_description_context_question_answer_id",
+            "quail_description_context_question_answer_text",
+            "quail_no_prompt_id",
+            "quail_no_prompt_text"
+        ],
+        "omit_templates": [
+            "_context_description_question_text",
+            "_context_question_description_text",
+            "_description_context_question_text"
+        ],
+        "omit_dataset_name": [
+            "quail_context_description_question_text",
+            "quail_context_question_description_text",
+            "quail_description_context_question_text"
+        ]
+    },
+    "quarel": {
+        "omit_templates": [
+            "_choose_between",
+            "_do_not_use",
+            "_heres_a_story",
+            "_logic_test",
+            "_testing_students"
+        ],
+        "omit_dataset_name": [
+            "quarel_choose_between",
+            "quarel_do_not_use",
+            "quarel_heres_a_story",
+            "quarel_logic_test",
+            "quarel_testing_students"
+        ]
+    },
+    "quartz": {
+        "original_templates": [
+            "_answer_question_based_on",
+            "_answer_question_below",
+            "_given_the_fact_answer_the_q",
+            "_having_read_above_passage",
+            "_paragraph_question_plain_concat",
+            "_read_passage_below_choose",
+            "_use_info_from_paragraph_question",
+            "_use_info_from_question_paragraph"
+        ],
+        "original_dataset_name": [
+            "quartz_answer_question_based_on",
+            "quartz_answer_question_below",
+            "quartz_given_the_fact_answer_the_q",
+            "quartz_having_read_above_passage",
+            "quartz_paragraph_question_plain_concat",
+            "quartz_read_passage_below_choose",
+            "quartz_use_info_from_paragraph_question",
+            "quartz_use_info_from_question_paragraph"
+        ]
+    },
+    "race_high": {
+        "omit_templates": [
+            "_Is_this_the_right_answer",
+            "_Write_a_multi_choice_question_for_the_following_article",
+            "_Write_a_multi_choice_question_options_given_"
+        ],
+        "omit_dataset_name": [
+            "race_high_Is_this_the_right_answer",
+            "race_high_Write_a_multi_choice_question_for_the_following_article",
+            "race_high_Write_a_multi_choice_question_options_given_"
+        ],
+        "original_templates": [
+            "_Read_the_article_and_answer_the_question_no_option_",
+            "_Select_the_best_answer",
+            "_Select_the_best_answer_generate_span_",
+            "_Select_the_best_answer_no_instructions_",
+            "_Taking_a_test"
+        ],
+        "original_dataset_name": [
+            "race_high_Read_the_article_and_answer_the_question_no_option_",
+            "race_high_Select_the_best_answer",
+            "race_high_Select_the_best_answer_generate_span_",
+            "race_high_Select_the_best_answer_no_instructions_",
+            "race_high_Taking_a_test"
+        ]
+    },
+    "race_middle": {
+        "omit_templates": [
+            "_Is_this_the_right_answer",
+            "_Write_a_multi_choice_question_for_the_following_article",
+            "_Write_a_multi_choice_question_options_given_"
+        ],
+        "omit_dataset_name": [
+            "race_middle_Is_this_the_right_answer",
+            "race_middle_Write_a_multi_choice_question_for_the_following_article",
+            "race_middle_Write_a_multi_choice_question_options_given_"
+        ],
+        "original_templates": [
+            "_Read_the_article_and_answer_the_question_no_option_",
+            "_Select_the_best_answer",
+            "_Select_the_best_answer_generate_span_",
+            "_Select_the_best_answer_no_instructions_",
+            "_Taking_a_test"
+        ],
+        "original_dataset_name": [
+            "race_middle_Read_the_article_and_answer_the_question_no_option_",
+            "race_middle_Select_the_best_answer",
+            "race_middle_Select_the_best_answer_generate_span_",
+            "race_middle_Select_the_best_answer_no_instructions_",
+            "race_middle_Taking_a_test"
+        ]
+    },
+    "sciq": {
+        "original_templates": [
+            "_Direct_Question",
+            "_Direct_Question_Closed_Book_",
+            "_Multiple_Choice",
+            "_Multiple_Choice_Question_First"
+        ],
+        "original_dataset_name": [
+            "sciq_Direct_Question",
+            "sciq_Direct_Question_Closed_Book_",
+            "sciq_Multiple_Choice",
+            "sciq_Multiple_Choice_Question_First"
+        ],
+        "omit_templates": [
+            "_Multiple_Choice_Closed_Book_"
+        ],
+        "omit_dataset_name": [
+            "sciq_Multiple_Choice_Closed_Book_"
+        ]
+    },
+    "social_i_qa": {
+        "original_templates": [
+            "_Check_if_a_random_answer_is_valid_or_not",
+            "_Generate_answer",
+            "_I_was_wondering",
+            "_Show_choices_and_generate_answer",
+            "_Show_choices_and_generate_index"
+        ],
+        "original_dataset_name": [
+            "social_i_qa_Check_if_a_random_answer_is_valid_or_not",
+            "social_i_qa_Generate_answer",
+            "social_i_qa_I_was_wondering",
+            "social_i_qa_Show_choices_and_generate_answer",
+            "social_i_qa_Show_choices_and_generate_index"
+        ],
+        "omit_templates": [
+            "_Generate_the_question_from_the_answer"
+        ],
+        "omit_dataset_name": [
+            "social_i_qa_Generate_the_question_from_the_answer"
+        ]
+    },
+    "super_glue_boolq": {
+        "original_templates": [
+            "_GPT_3_Style",
+            "_I_wonder_",
+            "_after_reading",
+            "_based_on_the_following_passage",
+            "_based_on_the_previous_passage",
+            "_could_you_tell_me_",
+            "_exam",
+            "_exercise",
+            "_valid_binary",
+            "_yes_no_question"
+        ],
+        "original_dataset_name": [
+            "super_glue_boolq_GPT_3_Style",
+            "super_glue_boolq_I_wonder_",
+            "super_glue_boolq_after_reading",
+            "super_glue_boolq_based_on_the_following_passage",
+            "super_glue_boolq_based_on_the_previous_passage",
+            "super_glue_boolq_could_you_tell_me_",
+            "super_glue_boolq_exam",
+            "super_glue_boolq_exercise",
+            "super_glue_boolq_valid_binary",
+            "super_glue_boolq_yes_no_question"
+        ]
+    },
+    "super_glue_multirc": {
+        "original_templates": [
+            "_I_was_going_to_say_",
+            "_Would_it_be_good_to_answer_",
+            "_confirm",
+            "_correct",
+            "_decide_valid",
+            "_found_this_answer",
+            "_grading",
+            "_is_a_correct_answer_",
+            "_is_the_correct_answer_",
+            "_paragraph_question_is_it_"
+        ],
+        "original_dataset_name": [
+            "super_glue_multirc_I_was_going_to_say_",
+            "super_glue_multirc_Would_it_be_good_to_answer_",
+            "super_glue_multirc_confirm",
+            "super_glue_multirc_correct",
+            "super_glue_multirc_decide_valid",
+            "super_glue_multirc_found_this_answer",
+            "super_glue_multirc_grading",
+            "super_glue_multirc_is_a_correct_answer_",
+            "super_glue_multirc_is_the_correct_answer_",
+            "super_glue_multirc_paragraph_question_is_it_"
+        ]
+    },
+    "wiki_hop_original": {
+        "original_templates": [
+            "_choose_best_object_affirmative_1",
+            "_choose_best_object_affirmative_2",
+            "_choose_best_object_affirmative_3",
+            "_choose_best_object_interrogative_1",
+            "_choose_best_object_interrogative_2"
+        ],
+        "original_dataset_name": [
+            "wiki_hop_original_choose_best_object_affirmative_1",
+            "wiki_hop_original_choose_best_object_affirmative_2",
+            "wiki_hop_original_choose_best_object_affirmative_3",
+            "wiki_hop_original_choose_best_object_interrogative_1",
+            "wiki_hop_original_choose_best_object_interrogative_2"
+        ],
+        "omit_templates": [
+            "_explain_relation",
+            "_generate_object",
+            "_generate_subject",
+            "_generate_subject_and_object"
+        ],
+        "omit_dataset_name": [
+            "wiki_hop_original_explain_relation",
+            "wiki_hop_original_generate_object",
+            "wiki_hop_original_generate_subject",
+            "wiki_hop_original_generate_subject_and_object"
+        ]
+    },
+    "wiqa": {
+        "omit_templates": [
+            "_does_the_supposed_perturbation_have_an_effect",
+            "_what_is_the_final_step_of_the_following_process",
+            "_what_is_the_missing_first_step",
+            "_what_might_be_the_first_step_of_the_process",
+            "_what_might_be_the_last_step_of_the_process",
+            "_which_of_the_following_is_the_supposed_perturbation"
+        ],
+        "omit_dataset_name": [
+            "wiqa_does_the_supposed_perturbation_have_an_effect",
+            "wiqa_what_is_the_final_step_of_the_following_process",
+            "wiqa_what_is_the_missing_first_step",
+            "wiqa_what_might_be_the_first_step_of_the_process",
+            "wiqa_what_might_be_the_last_step_of_the_process",
+            "wiqa_which_of_the_following_is_the_supposed_perturbation"
+        ],
+        "original_templates": [
+            "_effect_with_label_answer",
+            "_effect_with_string_answer"
+        ],
+        "original_dataset_name": [
+            "wiqa_effect_with_label_answer",
+            "wiqa_effect_with_string_answer"
+        ]
+    },
+    "piqa": {
+        "omit_templates": [
+            "_Correct_the_solution",
+            "_Correct_the_solution_if_false_from_sol_1",
+            "_Correct_the_solution_if_false_from_sol_2",
+            "_Does_this_solution_make_sense_sol1",
+            "_Does_this_solution_make_sense_sol2",
+            "_no_prompt_needed"
+        ],
+        "omit_dataset_name": [
+            "piqa_Correct_the_solution",
+            "piqa_Correct_the_solution_if_false_from_sol_1",
+            "piqa_Correct_the_solution_if_false_from_sol_2",
+            "piqa_Does_this_solution_make_sense_sol1",
+            "piqa_Does_this_solution_make_sense_sol2",
+            "piqa_no_prompt_needed"
+        ],
+        "original_templates": [
+            "_choose_the_most_appropriate_solution",
+            "_finish_sentence_with_correct_choice",
+            "_pick_correct_choice_index",
+            "_pick_correct_choice_with_choice_given_before_goal",
+            "_what_is_the_correct_ending"
+        ],
+        "original_dataset_name": [
+            "piqa_choose_the_most_appropriate_solution",
+            "piqa_finish_sentence_with_correct_choice",
+            "piqa_pick_correct_choice_index",
+            "piqa_pick_correct_choice_with_choice_given_before_goal",
+            "piqa_what_is_the_correct_ending"
+        ]
+    },
+    "amazon_polarity": {
+        "original_templates": [
+            "_Is_this_product_review_positive",
+            "_Is_this_review",
+            "_Is_this_review_negative",
+            "_User_recommend_this_product",
+            "_convey_negative_or_positive_sentiment",
+            "_flattering_or_not",
+            "_negative_or_positive_tone",
+            "_user_satisfied",
+            "_would_you_buy"
+        ],
+        "original_dataset_name": [
+            "amazon_polarity_Is_this_product_review_positive",
+            "amazon_polarity_Is_this_review",
+            "amazon_polarity_Is_this_review_negative",
+            "amazon_polarity_User_recommend_this_product",
+            "amazon_polarity_convey_negative_or_positive_sentiment",
+            "amazon_polarity_flattering_or_not",
+            "amazon_polarity_negative_or_positive_tone",
+            "amazon_polarity_user_satisfied",
+            "amazon_polarity_would_you_buy"
+        ]
+    },
+    "app_reviews": {
+        "omit_templates": [
+            "_categorize_rating_using_review",
+            "_convert_to_rating",
+            "_convert_to_star_rating",
+            "_generate_review"
+        ],
+        "omit_dataset_name": [
+            "app_reviews_categorize_rating_using_review",
+            "app_reviews_convert_to_rating",
+            "app_reviews_convert_to_star_rating",
+            "app_reviews_generate_review"
+        ]
+    },
+    "imdb": {
+        "original_templates": [
+            "_Movie_Expressed_Sentiment",
+            "_Movie_Expressed_Sentiment_2",
+            "_Reviewer_Enjoyment",
+            "_Reviewer_Enjoyment_Yes_No",
+            "_Reviewer_Expressed_Sentiment",
+            "_Reviewer_Opinion_bad_good_choices",
+            "_Reviewer_Sentiment_Feeling",
+            "_Sentiment_with_choices_",
+            "_Text_Expressed_Sentiment",
+            "_Writer_Expressed_Sentiment"
+        ],
+        "original_dataset_name": [
+            "imdb_Movie_Expressed_Sentiment",
+            "imdb_Movie_Expressed_Sentiment_2",
+            "imdb_Reviewer_Enjoyment",
+            "imdb_Reviewer_Enjoyment_Yes_No",
+            "imdb_Reviewer_Expressed_Sentiment",
+            "imdb_Reviewer_Opinion_bad_good_choices",
+            "imdb_Reviewer_Sentiment_Feeling",
+            "imdb_Sentiment_with_choices_",
+            "imdb_Text_Expressed_Sentiment",
+            "imdb_Writer_Expressed_Sentiment"
+        ],
+        "omit_templates": [
+            "_Negation_template_for_positive_and_negative"
+        ],
+        "omit_dataset_name": [
+            "imdb_Negation_template_for_positive_and_negative"
+        ]
+    },
+    "rotten_tomatoes": {
+        "original_templates": [
+            "_Movie_Expressed_Sentiment",
+            "_Movie_Expressed_Sentiment_2",
+            "_Reviewer_Enjoyment",
+            "_Reviewer_Enjoyment_Yes_No",
+            "_Reviewer_Expressed_Sentiment",
+            "_Reviewer_Opinion_bad_good_choices",
+            "_Reviewer_Sentiment_Feeling",
+            "_Sentiment_with_choices_",
+            "_Text_Expressed_Sentiment",
+            "_Writer_Expressed_Sentiment"
+        ],
+        "original_dataset_name": [
+            "rotten_tomatoes_Movie_Expressed_Sentiment",
+            "rotten_tomatoes_Movie_Expressed_Sentiment_2",
+            "rotten_tomatoes_Reviewer_Enjoyment",
+            "rotten_tomatoes_Reviewer_Enjoyment_Yes_No",
+            "rotten_tomatoes_Reviewer_Expressed_Sentiment",
+            "rotten_tomatoes_Reviewer_Opinion_bad_good_choices",
+            "rotten_tomatoes_Reviewer_Sentiment_Feeling",
+            "rotten_tomatoes_Sentiment_with_choices_",
+            "rotten_tomatoes_Text_Expressed_Sentiment",
+            "rotten_tomatoes_Writer_Expressed_Sentiment"
+        ]
+    },
+    "yelp_review_full": {
+        "original_templates": [
+            "_based_on_that",
+            "_format_rating",
+            "_format_score",
+            "_format_star",
+            "_on_a_scale",
+            "_so_i_would",
+            "_this_place"
+        ],
+        "original_dataset_name": [
+            "yelp_review_full_based_on_that",
+            "yelp_review_full_format_rating",
+            "yelp_review_full_format_score",
+            "yelp_review_full_format_star",
+            "yelp_review_full_on_a_scale",
+            "yelp_review_full_so_i_would",
+            "yelp_review_full_this_place"
+        ]
+    },
+    "super_glue_copa": {
+        "original_templates": [
+            "_C1_or_C2_premise_so_because_",
+            "_C1_or_C2_premise_so_because__score_eval",
+            "__As_a_result_C1_or_C2_",
+            "__As_a_result_C1_or_C2__score_eval",
+            "__What_could_happen_next_C1_or_C2_",
+            "__What_could_happen_next_C1_or_C2__score_eval",
+            "__which_may_be_caused_by",
+            "__which_may_be_caused_by_score_eval",
+            "__why_C1_or_C2",
+            "__why_C1_or_C2_score_eval",
+            "_best_option",
+            "_best_option_score_eval",
+            "_cause_effect",
+            "_cause_effect_score_eval",
+            "_choose",
+            "_choose_score_eval",
+            "_exercise",
+            "_exercise_score_eval",
+            "_i_am_hesitating",
+            "_i_am_hesitating_score_eval",
+            "_more_likely",
+            "_more_likely_score_eval",
+            "_plausible_alternatives",
+            "_plausible_alternatives_score_eval"
+        ],
+        "original_dataset_name": [
+            "super_glue_copa_C1_or_C2_premise_so_because_",
+            "super_glue_copa_C1_or_C2_premise_so_because__score_eval",
+            "super_glue_copa__As_a_result_C1_or_C2_",
+            "super_glue_copa__As_a_result_C1_or_C2__score_eval",
+            "super_glue_copa__What_could_happen_next_C1_or_C2_",
+            "super_glue_copa__What_could_happen_next_C1_or_C2__score_eval",
+            "super_glue_copa__which_may_be_caused_by",
+            "super_glue_copa__which_may_be_caused_by_score_eval",
+            "super_glue_copa__why_C1_or_C2",
+            "super_glue_copa__why_C1_or_C2_score_eval",
+            "super_glue_copa_best_option",
+            "super_glue_copa_best_option_score_eval",
+            "super_glue_copa_cause_effect",
+            "super_glue_copa_cause_effect_score_eval",
+            "super_glue_copa_choose",
+            "super_glue_copa_choose_score_eval",
+            "super_glue_copa_exercise",
+            "super_glue_copa_exercise_score_eval",
+            "super_glue_copa_i_am_hesitating",
+            "super_glue_copa_i_am_hesitating_score_eval",
+            "super_glue_copa_more_likely",
+            "super_glue_copa_more_likely_score_eval",
+            "super_glue_copa_plausible_alternatives",
+            "super_glue_copa_plausible_alternatives_score_eval"
+        ]
+    },
+    "hellaswag": {
+        "omit_templates": [
+            "_Appropriate_continuation_Yes_or_No",
+            "_Open_ended_completion",
+            "_Open_ended_start",
+            "_Reversed_appropriate_continuation_Yes_or_No",
+            "_Topic_of_the_context",
+            "_Topic_without_the_ending_answer",
+            "_how_ends"
+        ],
+        "omit_dataset_name": [
+            "hellaswag_Appropriate_continuation_Yes_or_No",
+            "hellaswag_Open_ended_completion",
+            "hellaswag_Open_ended_start",
+            "hellaswag_Reversed_appropriate_continuation_Yes_or_No",
+            "hellaswag_Topic_of_the_context",
+            "hellaswag_Topic_without_the_ending_answer",
+            "hellaswag_how_ends"
+        ],
+        "original_templates": [
+            "_Predict_ending_with_hint",
+            "_Predict_ending_with_hint_score_eval",
+            "_Randomized_prompts_template",
+            "_Randomized_prompts_template_score_eval",
+            "_complete_first_then",
+            "_complete_first_then_score_eval",
+            "_if_begins_how_continues",
+            "_if_begins_how_continues_score_eval"
+        ],
+        "original_dataset_name": [
+            "hellaswag_Predict_ending_with_hint",
+            "hellaswag_Predict_ending_with_hint_score_eval",
+            "hellaswag_Randomized_prompts_template",
+            "hellaswag_Randomized_prompts_template_score_eval",
+            "hellaswag_complete_first_then",
+            "hellaswag_complete_first_then_score_eval",
+            "hellaswag_if_begins_how_continues",
+            "hellaswag_if_begins_how_continues_score_eval"
+        ]
+    },
+    "common_gen": {
+        "original_templates": [
+            "_Example_prompt",
+            "_Given_concepts_type_1",
+            "_Given_concepts_type_2",
+            "_Put_together",
+            "_choice_in_concept_centric_sentence_generation",
+            "_random_task_template_prompt"
+        ],
+        "original_dataset_name": [
+            "common_gen_Example_prompt",
+            "common_gen_Given_concepts_type_1",
+            "common_gen_Given_concepts_type_2",
+            "common_gen_Put_together",
+            "common_gen_choice_in_concept_centric_sentence_generation",
+            "common_gen_random_task_template_prompt"
+        ],
+        "omit_templates": [
+            "_sentence_to_concepts",
+            "_topic_to_sentence",
+            "_topics_from_the_sentence"
+        ],
+        "omit_dataset_name": [
+            "common_gen_sentence_to_concepts",
+            "common_gen_topic_to_sentence",
+            "common_gen_topics_from_the_sentence"
+        ]
+    },
+    "wiki_bio": {
+        "omit_templates": [
+            "_comprehension",
+            "_guess_person",
+            "_key_content",
+            "_what_content"
+        ],
+        "omit_dataset_name": [
+            "wiki_bio_comprehension",
+            "wiki_bio_guess_person",
+            "wiki_bio_key_content",
+            "wiki_bio_what_content"
+        ],
+        "original_templates": [
+            "_who"
+        ],
+        "original_dataset_name": [
+            "wiki_bio_who"
+        ]
+    },
+    "cnn_dailymail_3.0.0": {
+        "original_templates": [
+            "_2_or_3_sentences",
+            "_news_card_view",
+            "_news_stock",
+            "_news_summary",
+            "_sum_in_brief",
+            "_tldr_summary",
+            "_write_an_outline"
+        ],
+        "original_dataset_name": [
+            "cnn_dailymail_3.0.0_2_or_3_sentences",
+            "cnn_dailymail_3.0.0_news_card_view",
+            "cnn_dailymail_3.0.0_news_stock",
+            "cnn_dailymail_3.0.0_news_summary",
+            "cnn_dailymail_3.0.0_sum_in_brief",
+            "cnn_dailymail_3.0.0_tldr_summary",
+            "cnn_dailymail_3.0.0_write_an_outline"
+        ],
+        "omit_templates": [
+            "_generate_story",
+            "_spice_up_story"
+        ],
+        "omit_dataset_name": [
+            "cnn_dailymail_3.0.0_generate_story",
+            "cnn_dailymail_3.0.0_spice_up_story"
+        ]
+    },
+    "gigaword": {
+        "original_templates": [
+            "_TLDR",
+            "_first_sentence_title",
+            "_generate_summary_for_this",
+            "_in_a_nutshell",
+            "_make_a_title",
+            "_write_a_title_for_this_sentence",
+            "_write_its_sentence"
+        ],
+        "original_dataset_name": [
+            "gigaword_TLDR",
+            "gigaword_first_sentence_title",
+            "gigaword_generate_summary_for_this",
+            "gigaword_in_a_nutshell",
+            "gigaword_make_a_title",
+            "gigaword_write_a_title_for_this_sentence",
+            "gigaword_write_its_sentence"
+        ],
+        "omit_templates": [
+            "_reverse_writing",
+            "_write_an_article"
+        ],
+        "omit_dataset_name": [
+            "gigaword_reverse_writing",
+            "gigaword_write_an_article"
+        ]
+    },
+    "multi_news": {
+        "original_templates": [
+            "_distill",
+            "_summarize",
+            "_summary_scenario",
+            "_synthesize",
+            "_what_are_the_key_points"
+        ],
+        "original_dataset_name": [
+            "multi_news_distill",
+            "multi_news_summarize",
+            "multi_news_summary_scenario",
+            "multi_news_synthesize",
+            "multi_news_what_are_the_key_points"
+        ],
+        "omit_templates": [
+            "_expand_reverse_task_"
+        ],
+        "omit_dataset_name": [
+            "multi_news_expand_reverse_task_"
+        ]
+    },
+    "samsum": {
+        "original_templates": [
+            "_Generate_a_summary_for_this_dialogue",
+            "_Given_the_above_dialogue_write_a_summary",
+            "_Sum_up_the_following_dialogue",
+            "_Summarize_",
+            "_Summarize_this_dialogue_",
+            "_To_sum_up_this_dialog"
+        ],
+        "original_dataset_name": [
+            "samsum_Generate_a_summary_for_this_dialogue",
+            "samsum_Given_the_above_dialogue_write_a_summary",
+            "samsum_Sum_up_the_following_dialogue",
+            "samsum_Summarize_",
+            "samsum_Summarize_this_dialogue_",
+            "samsum_To_sum_up_this_dialog"
+        ],
+        "omit_templates": [
+            "_Write_a_dialogue_that_match_this_summary"
+        ],
+        "omit_dataset_name": [
+            "samsum_Write_a_dialogue_that_match_this_summary"
+        ]
+    },
+    "xsum": {
+        "original_templates": [
+            "_DOC_boils_down_to_simple_idea_that",
+            "_DOC_given_above_write_one_sentence",
+            "_DOC_how_would_you_rephrase_few_words",
+            "_DOC_tldr",
+            "_DOC_write_summary_of_above",
+            "_article_DOC_summary",
+            "_college_roommate_asked_DOC_so_I_recap",
+            "_read_below_DOC_write_abstract",
+            "_summarize_DOC",
+            "_summarize_this_DOC_summary"
+        ],
+        "original_dataset_name": [
+            "xsum_DOC_boils_down_to_simple_idea_that",
+            "xsum_DOC_given_above_write_one_sentence",
+            "xsum_DOC_how_would_you_rephrase_few_words",
+            "xsum_DOC_tldr",
+            "xsum_DOC_write_summary_of_above",
+            "xsum_article_DOC_summary",
+            "xsum_college_roommate_asked_DOC_so_I_recap",
+            "xsum_read_below_DOC_write_abstract",
+            "xsum_summarize_DOC",
+            "xsum_summarize_this_DOC_summary"
+        ]
+    },
+    "ag_news": {
+        "original_templates": [
+            "_classify",
+            "_classify_question_first",
+            "_classify_with_choices",
+            "_classify_with_choices_question_first",
+            "_recommend",
+            "_which_section",
+            "_which_section_choices"
+        ],
+        "original_dataset_name": [
+            "ag_news_classify",
+            "ag_news_classify_question_first",
+            "ag_news_classify_with_choices",
+            "ag_news_classify_with_choices_question_first",
+            "ag_news_recommend",
+            "ag_news_which_section",
+            "ag_news_which_section_choices"
+        ]
+    },
+    "dbpedia_14": {
+        "original_templates": [
+            "_given_a_choice_of_categories_",
+            "_given_a_list_of_category_what_does_the_title_belong_to",
+            "_given_list_what_category_does_the_paragraph_belong_to",
+            "_pick_one_category_for_the_following_text"
+        ],
+        "original_dataset_name": [
+            "dbpedia_14_given_a_choice_of_categories_",
+            "dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to",
+            "dbpedia_14_given_list_what_category_does_the_paragraph_belong_to",
+            "dbpedia_14_pick_one_category_for_the_following_text"
+        ]
+    },
+    "trec": {
+        "omit_templates": [
+            "_fine_grained_ABBR",
+            "_fine_grained_ABBR_context_first",
+            "_fine_grained_DESC",
+            "_fine_grained_DESC_context_first",
+            "_fine_grained_ENTY",
+            "_fine_grained_HUM",
+            "_fine_grained_HUM_context_first",
+            "_fine_grained_LOC",
+            "_fine_grained_LOC_context_first",
+            "_fine_grained_NUM",
+            "_fine_grained_NUM_context_first"
+        ],
+        "omit_dataset_name": [
+            "trec_fine_grained_ABBR",
+            "trec_fine_grained_ABBR_context_first",
+            "trec_fine_grained_DESC",
+            "trec_fine_grained_DESC_context_first",
+            "trec_fine_grained_ENTY",
+            "trec_fine_grained_HUM",
+            "trec_fine_grained_HUM_context_first",
+            "trec_fine_grained_LOC",
+            "trec_fine_grained_LOC_context_first",
+            "trec_fine_grained_NUM",
+            "trec_fine_grained_NUM_context_first"
+        ],
+        "original_templates": [
+            "_fine_grained_open",
+            "_fine_grained_open_context_first",
+            "_pick_the_best_descriptor",
+            "_trec1",
+            "_trec2",
+            "_what_category_best_describe",
+            "_which_category_best_describes"
+        ],
+        "original_dataset_name": [
+            "trec_fine_grained_open",
+            "trec_fine_grained_open_context_first",
+            "trec_pick_the_best_descriptor",
+            "trec_trec1",
+            "trec_trec2",
+            "trec_what_category_best_describe",
+            "trec_which_category_best_describes"
+        ]
+    },
+    "super_glue_wic": {
+        "original_templates": [
+            "_GPT_3_prompt",
+            "_GPT_3_prompt_with_label",
+            "_affirmation_true_or_false",
+            "_grammar_homework",
+            "_polysemous",
+            "_question_context",
+            "_question_context_meaning",
+            "_question_context_meaning_with_label",
+            "_same_sense",
+            "_similar_sense"
+        ],
+        "original_dataset_name": [
+            "super_glue_wic_GPT_3_prompt",
+            "super_glue_wic_GPT_3_prompt_with_label",
+            "super_glue_wic_affirmation_true_or_false",
+            "super_glue_wic_grammar_homework",
+            "super_glue_wic_polysemous",
+            "super_glue_wic_question_context",
+            "super_glue_wic_question_context_meaning",
+            "super_glue_wic_question_context_meaning_with_label",
+            "super_glue_wic_same_sense",
+            "super_glue_wic_similar_sense"
+        ],
+        "omit_templates": [
+            "_GPT_3_prompt_score_eval",
+            "_GPT_3_prompt_with_label_score_eval",
+            "_affirmation_true_or_false_score_eval",
+            "_grammar_homework_score_eval",
+            "_polysemous_score_eval",
+            "_question_context_meaning_score_eval",
+            "_question_context_meaning_with_label_score_eval",
+            "_question_context_score_eval",
+            "_same_sense_score_eval",
+            "_similar_sense_score_eval"
+        ],
+        "omit_dataset_name": [
+            "super_glue_wic_GPT_3_prompt_score_eval",
+            "super_glue_wic_GPT_3_prompt_with_label_score_eval",
+            "super_glue_wic_affirmation_true_or_false_score_eval",
+            "super_glue_wic_grammar_homework_score_eval",
+            "super_glue_wic_polysemous_score_eval",
+            "super_glue_wic_question_context_meaning_score_eval",
+            "super_glue_wic_question_context_meaning_with_label_score_eval",
+            "super_glue_wic_question_context_score_eval",
+            "super_glue_wic_same_sense_score_eval",
+            "super_glue_wic_similar_sense_score_eval"
+        ]
+    }
+}

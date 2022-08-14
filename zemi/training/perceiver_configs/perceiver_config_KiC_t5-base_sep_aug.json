@@ -1,0 +1,10 @@
+{
+    "encoder_path_or_name": "t5-base",
+    "dim": 768,
+    "depth": 6,
+    "dim_head": 64,
+    "heads": 8,
+    "num_latents": 32,
+    "num_ret_rank_embeds": 10,
+    "ff_mult": 4
+}
