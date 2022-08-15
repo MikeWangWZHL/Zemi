@@ -1,0 +1,59 @@
+piqa | goal
+common_gen | concepts
+web_questions | question
+cosmos_qa | question
+wiki_qa | question
+squad_v2 | title context question
+gigaword | document
+trivia_qa/unfiltered | question
+sciq | question
+duorc/ParaphraseRC | plot title question
+duorc/SelfRC | plot title question
+super_glue/wic | sentence1 sentence2
+kilt_tasks/hotpotqa | input
+super_glue/copa | premise
+social_i_qa | context
+app_reviews | review
+dream | question
+paws/labeled_final | sentence1 sentence2
+trec | text
+openbookqa/main | question_stem
+glue/mrpc | sentence1 sentence2
+samsum | dialogue
+rotten_tomatoes | text
+winogrande/winogrande_xl | sentence option1 option2
+winogrande/winogrande_debiased | sentence option1 option2
+hellaswag | ctx
+cos_e/v1.11 | question
+glue/qqp | question1 question2
+qasc | question
+super_glue/wsc.fixed | text span1_text span2_text
+quartz | question
+ai2_arc/ARC-Easy | question choices
+dbpedia_14 | title content
+ai2_arc/ARC-Challenge | question choices
+quarel | logical_forms logical_form_pretty world_literals question
+ag_news | text
+ropes | background situation question
+wiqa | question_stem
+super_glue/rte | premise hypothesis
+cnn_dailymail/3.0.0 | article
+super_glue/cb | hypothesis
+anli | hypothesis
+amazon_polarity | title content
+super_glue/boolq | question passage
+wiki_bio | input_text
+yelp_review_full | text
+adversarial_qa/dbidaf | title context question
+adversarial_qa/dbert | title context question
+adversarial_qa/droberta | title context question
+super_glue/record | passage query entities
+race/middle | article question options
+imdb | text
+multi_news | document
+xsum | document
+super_glue/multirc | paragraph question answer
+race/high | article question options
+quoref | question context title
+quail | domain context question question_type answers
+wiki_hop/original | question candidates supports
