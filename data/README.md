@@ -1,13 +1,14 @@
 # Data
 
 ## Download Preprocessed Datasets
-TODO: ADD LINK
+- Download `dataset` from: https://uofi.box.com/s/wnt6cv7icuir4q3wb2a6viuyklme5dga
+- Unzip the `30aug.zip`, put the folder under `data/p3_c4_document_level_chosen_examples`
 
 ## Using Custom Datasets
 Please refer to [C4 Retrieval and Post Processing Instruction](../C4_retrieval/README.md)
 
 ## Data Format
-The downloaded or processed datasets will be in `data/p3_c4_document_level_chosen_examples/30aug` which are huggingface dataset instances that can be loaded with [load_from_disk](https://huggingface.co/docs/datasets/package_reference/loading_methods#datasets.load_from_disk). The dataset has the following fields:
+The downloaded or processed datasets will be located at `data/p3_c4_document_level_chosen_examples/30aug`, which contains huggingface dataset instances that can be loaded with [load_from_disk](https://huggingface.co/docs/datasets/package_reference/loading_methods#datasets.load_from_disk). The dataset has the following fields:
 
 | Dataset fields | Description |
 --- | --- |
