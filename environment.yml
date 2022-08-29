@@ -1,4 +1,4 @@
-name: t-zero
+name: zemi
 channels:
   - pytorch
   - defaults

@@ -1,1 +1,0 @@
-docker build --tag mirrors.tencent.com/ai-lab-seattle/mikeeewang_t0:latest .

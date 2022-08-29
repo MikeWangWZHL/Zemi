@@ -1,7 +1,7 @@
-export DATA_ROOT="/data"
-export TRAINING_SRC_ROOT="/code/training"
-export EVAL_SRC_ROOT="/code/eval"
-export OUTPUT_SRC_ROOT="/code/output"
+export DATA_ROOT="../data"
+export TRAINING_SRC_ROOT="./training"
+export EVAL_SRC_ROOT="./eval"
+export OUTPUT_SRC_ROOT="./output"
 
 # export HF_DATASETS_OFFLINE=1
 # export TRANSFORMERS_OFFLINE=1
