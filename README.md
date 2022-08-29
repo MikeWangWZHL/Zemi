@@ -1,5 +1,5 @@
 
-# Code for paper [Zemi:...]()
+# Code for paper [Zemi]()
 
 # Prepare Datasets
 Instructions on downloading preprocessed datasets and prepraring costum datasets can be found [here](./data/README.md)  
@@ -12,7 +12,7 @@ Set up conda environment with `conda env create -f environment.yml`
 
 # Quick Start
 Scripts for reproducing the main results in Table 1: performing (semi-)parametric multitask prompted training and zero-shot evaluation. Detailed instructions on the configurations can be found [here](./zemi/training/README.md).
-All scripts should be run under `zemi/`.  
+All scripts should be run under `zemi/`.  `SETUP_ENV.sh` will be called in the following scripts for setting up env variables. One may modify the variables if not using the exact same folder structure as setup above.
 
 ## No Aug baseline 
 - base: `bash ./training/no_aug_base.sh`
