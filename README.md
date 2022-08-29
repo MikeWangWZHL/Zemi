@@ -1,5 +1,5 @@
 
-# Code for paper Zemi 
+# Code for paper [Zemi:...]()
 
 # Prepare Datasets
 Instructions on downloading preprocessed datasets and prepraring costum datasets can be found [here](./data/README.md)  

@@ -1,7 +1,7 @@
 # Quick Start Scripts
 
 ## Code Description
-The shell scripts started with `run_*` in `zemi/training` and `zemi/eval` are lowest level scripts that will call training and evaluation `.py` files. For conveniently run multiple experiments, we provide higher level scripts which will call both training and evalution lower level shell scripts, such as `zemi_base.sh`. The comments for each positional arguments can be found in each of the higher level scripts, such as `zemi_base.sh`. For Zemi and FiD models, we will further include a config file from `perceiver_configs/` which is used for config the model architecture, such as the number of augmentation, latent size, etc (detailed in the following section)
+The shell scripts started with `run_*` in `zemi/training` and `zemi/eval` are lower level scripts that will call training and evaluation `.py` files. For conveniently running multiple experiments, we provide higher level scripts, such as `zemi_base.sh`, which will call lower level shell scripts for both training and evalution. The comments for each positional arguments can be found in each of the higher level scripts, such as `zemi_base.sh`. For Zemi and FiD models, we will further include a config file from `perceiver_configs/` which is used for config the model architecture, such as the number of augmentation, latent size, etc (detailed in the following section)
 
 ## Perceiver Config Documentation
 The json file in `perceiver_configs/` directory contains the main configuration for Zemi and FiD model architecture. The following table shows the description of each fields. 
@@ -35,3 +35,9 @@ The json file in `perceiver_configs/` directory contains the main configuration 
 ### Zemi
 - base: `bash ./training/zemi_base.sh`
 - large: `bash ./training/zemi_large.sh`
+
+
+## Util Script for Visualizing Evaluation Results
+We provide the script for post-processing the evaluation results that will be outputed in `zemi/output/eval`. Please refer to the lines with `#TODO` instructions for using the following script which finds the overall best checkpoint across all tasks and return the averaged scores for each task:
+
+`zemi/output/eval/visualize_multitask_results.py`
