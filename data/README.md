@@ -5,7 +5,7 @@
 - Unzip the `30aug.zip`, put the folder under `data/p3_c4_document_level_chosen_examples`
 
 ## Using Custom Datasets & C4 Retrieval
-Please refer to the README.md in [c4_retrieval/](../c4_retrieval/README.md)
+Please refer to the [README.md](../c4_retrieval/README.md) in `c4_retrieval/`
 
 ## Data Format
 The downloaded or processed datasets will be located at `data/p3_c4_document_level_chosen_examples/30aug`, which contains huggingface dataset instances that can be loaded with [load_from_disk](https://huggingface.co/docs/datasets/package_reference/loading_methods#datasets.load_from_disk). The dataset has the following fields:
