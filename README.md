@@ -1,6 +1,8 @@
 
 # Code for paper [Zemi: Learning Zero-Shot Semi-Parametric Language Models from Multiple Tasks](https://arxiv.org/abs/2210.00185)
 
+![](overview.png)
+
 ## Prepare Datasets
 Instructions on downloading preprocessed datasets and prepraring costum datasets can be found [here](./data/README.md)  
 
