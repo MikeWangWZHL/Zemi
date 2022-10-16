@@ -40,4 +40,10 @@ All scripts should be run under `zemi/`.  `SETUP_ENV.sh` will be called in the f
 
 ## Citation
 ```
+@article{wang2022zemi,
+  title={Zemi: Learning Zero-Shot Semi-Parametric Language Models from Multiple Tasks},
+  author={Wang, Zhenhailong and Pan, Xiaoman and Yu, Dian and Yu, Dong and Chen, Jianshu and Ji, Heng},
+  journal={arXiv preprint arXiv:2210.00185},
+  year={2022}
+}
 ```
