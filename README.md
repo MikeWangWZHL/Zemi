@@ -38,6 +38,9 @@ All scripts should be run under `zemi/`.  `SETUP_ENV.sh` will be called in the f
     - eval No Aug and Concat baseline: `zemi/eval_original_task_only.py`
     - eval FiD baseline and Zemi: `zemi/eval_original_task_only_xattn.py`
 
+## Visualization of the Retrieved Documents
+`visualization/` contains examples of the retrieved documents for each task. We include the top 50 examples with the highest and lowest BM25 scores in `visualization/top50_highest_score_retrieval_instances` and `visualization/top50_lowest_score_retrieval_instances`. We also include the first 50 instances for each dataset without reordering in `visualization/first50_retrieval_instances`. 
+
 ## Citation
 ```
 @article{wang2022zemi,
