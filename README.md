@@ -6,8 +6,8 @@
 ## Prepare Datasets
 Instructions on downloading preprocessed datasets and prepraring costum datasets can be found [here](./data/README.md)  
 
-## Download Checkpoints
-Download `checkpoints` from: https://uofi.box.com/s/wnt6cv7icuir4q3wb2a6viuyklme5dga. Put the checkpoints directories in `checkpoints` under `output/p3_finetuning`
+# Download Checkpoints
+Download `checkpoints` from: https://uofi.box.com/s/wnt6cv7icuir4q3wb2a6viuyklme5dga. Put the checkpoints directories in `checkpoints` under `zemi/output/p3_finetuning`
 
 ## Setup Environment
 Set up conda environment with `conda env create -f environment.yml`
