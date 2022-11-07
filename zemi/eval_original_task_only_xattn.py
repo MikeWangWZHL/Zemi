@@ -41,6 +41,9 @@ from modeling_t5 import (
     T5ForConditionalGenerationMultiAug_NoTanhGate,
     load_T5_weights,
 )
+
+import time
+
 logger = logging.getLogger(__name__)
 
 def get_dataset_name_2_if_origianl():
@@ -571,6 +574,9 @@ def main():
             all_targets = []
             all_indices = []
 
+            ## timing
+            start_time = time.time()
+
             for batch in eval_dataloader:
 
                 model_inputs = {
@@ -609,6 +615,10 @@ def main():
 
                 progress_bar.update(1)
 
+            ## timing
+            end_time = time.time()
+            print(f"[INFO] time elapsed:{end_time - start_time}")
+
             eval_metric = metric.compute()
             accelerator.print(f"Result: {os.path.basename(dataset_path)} {eval_metric}")
             results = {
@@ -623,16 +633,17 @@ def main():
                 with open(output_path, "w") as f:
                     json.dump(results, f, indent=4)
 
-                # output error analysis
-                output_error_analysis_dir = os.path.join(args.error_analysis_dir, os.path.basename(args.output_dir), os.path.basename(ckpt_path), f"{os.path.basename(os.path.dirname(dataset_path))}__{os.path.basename(dataset_path)}")
-                os.makedirs(output_error_analysis_dir,exist_ok=True)
-                with open(os.path.join(output_error_analysis_dir, 'prediction_target_indices.json'), 'w') as out:
-                    dump_object = {
-                        "predictions":all_predictions,
-                        "targets":all_targets,
-                        "indices":all_indices
-                    }
-                    json.dump(dump_object, out)
+                # # output error analysis
+                # output_error_analysis_dir = os.path.join(args.error_analysis_dir, os.path.basename(args.output_dir), os.path.basename(ckpt_path), f"{os.path.basename(os.path.dirname(dataset_path))}__{os.path.basename(dataset_path)}")
+                # os.makedirs(output_error_analysis_dir,exist_ok=True)
+                # with open(os.path.join(output_error_analysis_dir, 'prediction_target_indices.json'), 'w') as out:
+                #     dump_object = {
+                #         "predictions":all_predictions,
+                #         "targets":all_targets,
+                #         "indices":all_indices
+                #     }
+                #     json.dump(dump_object, out)
+                
                 # raw_eval_dataset.save_to_disk(os.path.join(output_error_analysis_dir, 'dataset'))
                 # print(raw_eval_dataset)
                 # print('save raw dataset to disk for error analysis:',os.path.join(output_error_analysis_dir, 'dataset'))

@@ -35,6 +35,8 @@ from promptsource.templates import DatasetTemplates
 from data_collator import DataCollatorForMultipleChoice
 # from t0.model import ModelBase
 
+# simple timing
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -373,6 +375,8 @@ def main():
         if args.eval_average:
             raw_eval_datasets = [concatenate_datasets(raw_eval_datasets)]
             args.processed_dataset_paths = ['average']
+        
+        
         for dataset_path, raw_eval_dataset in zip(args.processed_dataset_paths, raw_eval_datasets):
             column_names = raw_eval_dataset.column_names if raw_eval_dataset else None
             eval_dataset = raw_eval_dataset.map(
@@ -439,7 +443,11 @@ def main():
             all_targets = []
             all_indices = []
 
+            ## timing
+            start_time = time.time()
+
             for batch in eval_dataloader:
+                
                 model_inputs = {
                     k: batch[k]
                     for k in ["input_ids", "attention_mask", "labels"]
@@ -463,6 +471,11 @@ def main():
                 all_indices += [int(item) for item in accelerator.gather(batch["indices"]).detach().cpu().numpy()]
 
                 progress_bar.update(1)
+
+            ## timing
+            end_time = time.time()
+            print(f"[INFO] time elapsed:{end_time - start_time}")
+                
 
             # logger.info(all_predictions)
             # logger.info(all_targets)
