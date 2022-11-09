@@ -31,7 +31,7 @@ All scripts should be run under `zemi/`.  `SETUP_ENV.sh` will be called in the f
 - large: `bash ./training/zemi_large.sh`
 
 ## Brief Description of the Source Code
-- code for the model architecture: `zemi/modeling_t5.py`, `zemi/modeling_xattn.py`
+- code for the model architecture: `zemi/modeling_t5.py` from [this line](https://github.com/MikeWangWZHL/Zemi/blob/8887b712526a0eccc1e9325c1da6a9eef9f0444b/zemi/modeling_t5.py#L1875) and `zemi/modeling_xattn.py`
 - code for multitask training: 
     - train No Aug and Concat baseline: `zemi/multi_task_fine_tune_baseline.py`
     - train FiD baseline and Zemi: `zemi/multi_task_fine_tune_xattn.py`
