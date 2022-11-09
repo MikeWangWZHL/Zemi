@@ -10,7 +10,8 @@ Instructions on downloading preprocessed datasets and prepraring costum datasets
 Download `checkpoints` from: https://uofi.box.com/s/wnt6cv7icuir4q3wb2a6viuyklme5dga. Put the checkpoints directories in `checkpoints` under `zemi/output/p3_finetuning`
 
 ## Setup Environment
-Set up conda environment with `conda env create -f environment.yml`
+Set up conda environment with `conda env create -f environment.yml`.
+Run `accelerate config` to config the device.
 
 ## Quick Start
 Scripts for reproducing the main results in Table 1: performing (semi-)parametric multitask prompted training and zero-shot evaluation. Detailed instructions on the configurations can be found [here](./zemi/training/README.md).

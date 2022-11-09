@@ -475,6 +475,7 @@ def main():
             ## timing
             end_time = time.time()
             print(f"[INFO] time elapsed:{end_time - start_time}")
+            break
                 
 
             # logger.info(all_predictions)

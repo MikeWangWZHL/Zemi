@@ -618,6 +618,7 @@ def main():
             ## timing
             end_time = time.time()
             print(f"[INFO] time elapsed:{end_time - start_time}")
+            break
 
             eval_metric = metric.compute()
             accelerator.print(f"Result: {os.path.basename(dataset_path)} {eval_metric}")
