@@ -1,12 +1,12 @@
 
-## Code for paper [Zemi: Learning Zero-Shot Semi-Parametric Language Models from Multiple Tasks](https://arxiv.org/abs/2210.00185) ACL2023 Findings
+## Code for paper [Zemi: Learning Zero-Shot Semi-Parametric Language Models from Multiple Tasks](https://arxiv.org/abs/2210.00185) [ACL 2023 Findings]
 
 ![](overview.png)
 
 ## Prepare Datasets
 Instructions on downloading preprocessed datasets and prepraring costum datasets can be found [here](./data/README.md)  
 
-# Download Checkpoints
+## Download Checkpoints
 Download `checkpoints` from: https://uofi.box.com/s/wnt6cv7icuir4q3wb2a6viuyklme5dga. Put the checkpoints directories in `checkpoints` under `zemi/output/p3_finetuning`
 
 ## Setup Environment
